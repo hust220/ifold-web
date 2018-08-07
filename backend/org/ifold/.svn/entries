@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="66"
+   name=""
+   committed-date="2006-04-06T05:27:25.995000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/backend/org/ifold"
+   last-author="dan"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   name="daemon"
+   kind="dir"/>
+<entry
+   name="manager"
+   kind="dir"/>
+<entry
+   name="util"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2006-02-14T23:37:33.687500Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib/adodb/session/old"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="9"
+   name="crypt.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="5a4e4fde0da690423376a99610929101"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-session.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="f277cab24d5cef62df3a3d8c2ba6e359"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-cryptsession.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="f3ea30f81937b4a45df89d20348d0578"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-session-clob.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="bfb0bcb5313d36c7ae3fdc5cd8e6b5a7"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+</wc-entries>

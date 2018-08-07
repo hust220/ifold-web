@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="66"
+   name=""
+   committed-date="2006-04-06T05:27:25.995000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/backend/org/ifold/util"
+   last-author="dan"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="66"
+   name="Output.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="ed03bbeae43f052eb557aa1a33b0a455"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="21"
+   name="Daemon.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-02-22T18:35:36.279875Z"
+   checksum="520a8ee4d85703c9093eb50f12fb80a2"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   name="message"
+   kind="dir"/>
+<entry
+   committed-rev="66"
+   name="Fold.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="e0a8882b29ce69746975dc2f6dd3cd19"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+</wc-entries>

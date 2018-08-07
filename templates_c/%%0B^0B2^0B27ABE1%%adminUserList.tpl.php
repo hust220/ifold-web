@@ -1,0 +1,72 @@
+<?php /* Smarty version 2.6.11, created on 2007-11-01 10:08:09
+         compiled from adminUserList.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('function', 'cycle', 'adminUserList.tpl', 17, false),)), $this); ?>
+<script src="style/js/adminuserlist.js" language="javascript" type="text/javascript"></script>
+<div class="indexTitle">&raquo; Admin User List</div><br/>
+<div id="adminUserMessages" class="ajaxMessages">&nbsp;</div><br/><br/>
+<table border="0" cellpadding="0" cellspacing="0" class="ifoldTable">
+	<tr>
+		<th align="left" valign="top">Aprvd?</th>
+		<th align="left" valign="top">Username</th>
+		<th align="left" valign="top">First Name</th>
+		<th align="left" valign="top">Last Name</th>
+		<th align="left" valign="top">Lv.</th>
+		<th align="left" valign="top">Organization</th>
+		<th align="left" valign="top">Num Tasks</th>
+		<th align="left" valign="top">CPU Hours</th>
+		<th align="left" valign="top" class="alt">Admin Functions</th>
+	</tr>
+	<?php $_from = $this->_tpl_vars['userList']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['userIter']):
+?>
+		<tr class="<?php echo smarty_function_cycle(array('values' => "normal,alt"), $this);?>
+">
+			<td id="<?php echo $this->_tpl_vars['userIter']->get('id'); ?>
+_approved" align="left" valign="top">
+				<?php if (( $this->_tpl_vars['userIter']->get('approved') == 0 )): ?> <img src="style/img/a_user-idenied.png" value="0" alt="denied!" style="cursor:pointer" onclick="if (confirm('Send an Approval Confirmation email to <?php echo $this->_tpl_vars['userIter']->get('username'); ?>
+?')) approve(this, true); else approve(this, false);"/>
+				<?php else: ?> <img src="style/img/a_user-iapproved.png" value="0" alt="approved!" style="cursor:pointer" onclick="deapprove(this)"/>
+				<?php endif; ?>
+			</td>
+			<td id="<?php echo $this->_tpl_vars['userIter']->get('id'); ?>
+_username" align="left" valign="top" onclick="html2input(this)"><?php echo $this->_tpl_vars['userIter']->get('username'); ?>
+</td>
+			<td id="<?php echo $this->_tpl_vars['userIter']->get('id'); ?>
+_namefirst" align="left" valign="top" onclick="html2input(this)"><?php echo $this->_tpl_vars['userIter']->get('namefirst'); ?>
+</td>
+			<td id="<?php echo $this->_tpl_vars['userIter']->get('id'); ?>
+_namelast" align="left" valign="top" onclick="html2input(this)"><?php echo $this->_tpl_vars['userIter']->get('namelast'); ?>
+</td>
+			<td id="<?php echo $this->_tpl_vars['userIter']->get('id'); ?>
+_level" align="left" valign="top" onclick="html2input(this)" 
+				<?php if (( $this->_tpl_vars['userIter']->get('level') < 3 )): ?>
+					style="color:#C0C0C0"><?php echo $this->_tpl_vars['userIter']->get('level'); ?>
+
+				<?php elseif (( $this->_tpl_vars['userIter']->get('level') < 5 )): ?>
+					style="color:#808080"><?php echo $this->_tpl_vars['userIter']->get('level'); ?>
+
+				<?php else: ?>
+					style="color:#000000;font-weight:bold"><?php echo $this->_tpl_vars['userIter']->get('level'); ?>
+
+				<?php endif; ?>
+			</td>
+			<td id="<?php echo $this->_tpl_vars['userIter']->get('id'); ?>
+_organization" align="left" valign="top" onclick="html2input(this)"><?php echo $this->_tpl_vars['userIter']->get('organization'); ?>
+</td>
+			<td id="<?php echo $this->_tpl_vars['userIter']->get('id'); ?>
+_numtasks" align="left" valign="top" onclick="html2input(this)"><?php echo $this->_tpl_vars['userIter']->get('numtasks'); ?>
+</td>
+			<td id="<?php echo $this->_tpl_vars['userIter']->get('id'); ?>
+_cpuHours" align="left" valign="top" onclick="html2input(this)"><?php echo $this->_tpl_vars['userIter']->get('cpuHours'); ?>
+</td>
+			<td id="<?php echo $this->_tpl_vars['userIter']->get('id'); ?>
+_functions" align="left" valign="top">
+				<img src="style/img/a_user-idelete.png" alt="Delete <?php echo $this->_tpl_vars['userIter']->get('username'); ?>
+" style="cursor:pointer" onclick="if (confirm('Are you sure you want to delete?')) deleteRow(this)"/>
+				<a href="mailto:<?php echo $this->_tpl_vars['userIter']->get('email'); ?>
+" border="0" ><img src="style/img/a_user-iemail.png" border=0></a>
+			</td>
+		</tr>
+	<?php endforeach; endif; unset($_from); ?>
+</table>

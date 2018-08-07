@@ -1,0 +1,44 @@
+#!/bin/sh
+
+# logical name of this instance - used in paths for executables
+# and data files
+NAME="shantanu"
+
+# keep the exit code to the end
+EXITCODE=1
+
+# remember start dir
+STARTDIR=`pwd`
+
+# create a temp dir
+if [ "x$OSG_WN_TMP" = "x" ]; then
+    echo "OSG_WN_TMP is not defined. Exiting."
+    exit 1
+fi
+TEMPDIR=`/bin/mktemp -d $OSG_WN_TMP/engage-$NAME.XXXXXXXXXX` || exit 1
+
+# untar the input data
+cd $TEMPDIR
+tar xzf $STARTDIR/inputs.tar.gz
+rm -f $STARTDIR/inputs.tar.gz
+
+# run the application
+./wrapscript.sh
+EXITCODE=$?
+
+# tar up the outputs - makes it easy to stage back outputs
+cd $TEMPDIR
+tar -czf $STARTDIR/outputs.tar.gz T*
+
+# remove temp dir
+cd $STARTDIR
+rm -rf $TEMPDIR
+
+if [ "x$EXITCODE" = "x0" ]; then
+    # give the all good signal to the job-success-check script
+    echo "=== RUN SUCCESSFUL ==="
+else
+    echo "Job failed with exit code $EXITCODE"
+fi
+
+

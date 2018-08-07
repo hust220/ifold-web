@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2006-02-14T23:37:33.687500Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib/adodb/perf"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="9"
+   name="perf-db2.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="ca3b60601066b6f755c1301b53d8529a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="perf-informix.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="17c8aa36a972bcd12b762d958dc840d1"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="perf-mssql.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="c904f25c634071dc21bd6af61bdde5e6"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="perf-oci8.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="4285dda481040adb76c5ae43a5ccdca3"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="perf-mysql.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="c55b74fb6f806ee5f046d7cbcc52e581"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="perf-postgres.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="984b5ce06980c7f964994f3d2c043c7a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="66"
+   name=""
+   committed-date="2006-04-06T05:27:25.995000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/backend/org/ifold/util/message"
+   last-author="dan"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="66"
+   name="Message.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="91806799614427ed20ce2346db039d95"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="66"
+   name="StatusMessage.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="069a42a6aee47a88a6d23f04fc117608"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="66"
+   name="NewMessage.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="9a2508748b3b6928543eb845cf76d192"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+</wc-entries>

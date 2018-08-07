@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="124"
+   name=""
+   committed-date="2006-05-08T07:51:11.692500Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/docs"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="112"
+   name="UseCases.doc"
+   text-time="2006-05-03T04:28:15.000000Z"
+   committed-date="2006-05-03T04:30:29.748125Z"
+   checksum="b890ef4d0c71661aa9aff5bba9124368"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:14.000000Z"/>
+<entry
+   committed-rev="123"
+   name="UserManual.doc"
+   text-time="2006-05-05T06:24:23.000000Z"
+   committed-date="2006-05-04T03:24:13.466875Z"
+   checksum="46cb140122742d92edcb352b458e599a"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-05-05T06:24:23.000000Z"/>
+<entry
+   name="mockups"
+   kind="dir"/>
+<entry
+   committed-rev="12"
+   name="Contract.doc"
+   text-time="2006-04-06T23:27:36.000000Z"
+   committed-date="2006-02-20T22:01:40.045500Z"
+   checksum="f4b327c1b7de3f4cb64346cde41668b4"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-06T23:27:36.000000Z"/>
+<entry
+   committed-rev="124"
+   name="iFoldDBSQL.sql"
+   text-time="2006-05-08T07:45:24.000000Z"
+   committed-date="2006-05-08T07:51:11.692500Z"
+   checksum="0381a5540fe8d69f6c6019117c25f820"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-08T07:45:24.000000Z"/>
+<entry
+   committed-rev="112"
+   name="SchedulePreTrac.xls"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-03T04:30:29.748125Z"
+   checksum="dd3bac2ce0e26ef3ced1d91e9fc9371a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:14.000000Z"/>
+<entry
+   committed-rev="115"
+   name="ManagerDiagram.png"
+   text-time="2006-05-03T05:49:03.000000Z"
+   committed-date="2006-05-03T05:20:05.716875Z"
+   checksum="d23f2f17ac54c52617ec93d34ba92113"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T05:49:02.000000Z"/>
+<entry
+   committed-rev="115"
+   name="FinalPresentation.ppt"
+   text-time="2006-05-03T05:49:03.000000Z"
+   committed-date="2006-05-03T05:20:05.716875Z"
+   checksum="83d0948257a9e4615735d250036da967"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T05:49:03.000000Z"/>
+<entry
+   committed-rev="121"
+   name="AdminManual.doc"
+   text-time="2006-05-05T06:24:23.000000Z"
+   committed-date="2006-05-04T03:03:22.248125Z"
+   checksum="3c784dab9c797b8b48d6295f04b309fc"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-05T06:24:23.000000Z"/>
+<entry
+   committed-rev="112"
+   name="TechnicalDocumentation.pdf"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-03T04:30:29.748125Z"
+   checksum="228c51d153d35b15b27d0fd1af571115"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:15.000000Z"/>
+<entry
+   committed-rev="116"
+   name="TestPlan.doc"
+   text-time="2006-05-03T05:49:03.000000Z"
+   committed-date="2006-05-03T05:41:50.263750Z"
+   checksum="5637bda81594131717f5257bb5630e49"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T05:49:03.000000Z"/>
+<entry
+   committed-rev="112"
+   name="DBModel.xml"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-03T04:30:29.748125Z"
+   checksum="628c7b2a473e43c7f9b68d7beeea4a8a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:14.000000Z"/>
+<entry
+   committed-rev="112"
+   name="TeamRules.doc"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-03T04:30:29.748125Z"
+   checksum="73607c8803f1cd9121022e2eb397ef21"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:15.000000Z"/>
+<entry
+   committed-rev="114"
+   name="iFoldDBModel.png"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-03T04:31:48.138750Z"
+   checksum="99cd6e3451f3b3475cc306f403589b4a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:15.000000Z"/>
+<entry
+   committed-rev="112"
+   name="FrontendInstallManual.doc"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-03T04:30:29.748125Z"
+   checksum="74bf0cd5b3f4a2bfa3b9fef110e8166c"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:15.000000Z"/>
+<entry
+   committed-rev="115"
+   name="DaemonDiagram.png"
+   text-time="2006-05-03T05:49:03.000000Z"
+   committed-date="2006-05-03T05:20:05.716875Z"
+   checksum="c6f3c49b7ed715ea8aee0c255ea9a495"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T05:49:03.000000Z"/>
+<entry
+   committed-rev="119"
+   name="FrontendDesignDocument.doc"
+   text-time="2006-05-05T06:24:23.000000Z"
+   committed-date="2006-05-04T01:46:58.998125Z"
+   checksum="96954242c929704dc8ef369e0394ab02"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-05T06:24:23.000000Z"/>
+<entry
+   committed-rev="115"
+   name="OverallDiagram.png"
+   text-time="2006-05-03T05:49:03.000000Z"
+   committed-date="2006-05-03T05:20:05.716875Z"
+   checksum="bf0d29712f69f73fba96092eb80375b8"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T05:49:03.000000Z"/>
+</wc-entries>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="132"
+   name=""
+   committed-date="2006-05-11T16:42:36.161250Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/style"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="110"
+   name="welcome.css"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-03T03:57:31.232500Z"
+   checksum="b42aa58dc13e848ff883dcbe15c2e1a5"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="129"
+   name="ifold.css"
+   text-time="2006-05-10T21:39:47.000000Z"
+   committed-date="2006-05-10T21:45:58.676875Z"
+   checksum="1b7c281d10c22df38908e3947deef94c"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-10T21:39:47.000000Z"/>
+<entry
+   committed-rev="103"
+   name="greybox.css"
+   text-time="2006-04-30T21:21:49.000000Z"
+   committed-date="2006-04-30T08:42:05.867375Z"
+   checksum="94f0a774eee4fcb765af5908f9a40ebb"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-30T21:21:49.000000Z"/>
+<entry
+   name="img"
+   kind="dir"/>
+<entry
+   name="js"
+   kind="dir"/>
+</wc-entries>

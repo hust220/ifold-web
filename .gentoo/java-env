@@ -1,0 +1,4 @@
+
+if [ -f $HOME/.gentoo/java ] ; then
+	. $HOME/.gentoo/java
+fi

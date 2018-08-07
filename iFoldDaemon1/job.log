@@ -1,0 +1,45 @@
+000 (1346.000.000) 04/09 14:36:07 Job submitted from host: <152.19.64.130:37897>
+    DAG Node: job_1
+...
+017 (1346.000.000) 04/09 14:36:37 Job submitted to Globus
+    RM-Contact: red.unl.edu/jobmanager-condor
+    JM-Contact: https://red.unl.edu:60533/19394/1270838193/
+    Can-Restart-JM: 1
+...
+027 (1346.000.000) 04/09 14:36:37 Job submitted to grid resource
+    GridResource: gt2 red.unl.edu/jobmanager-condor
+    GridJobId: gt2 red.unl.edu/jobmanager-condor https://red.unl.edu:60533/19394/1270838193/
+...
+012 (1346.000.000) 04/09 14:46:11 Job was held.
+	The job attribute PeriodicHold expression '(((JobStatus == 1) && ((CurrentTime - EnteredCurrentStatus) > (10 * 60))) || ((JobStatus == 2) && ((CurrentTime - EnteredCurrentStatus) > (5 * 60 * 60))))' evaluated to TRUE
+	Code 0 Subcode 0
+...
+013 (1346.000.000) 04/09 14:46:27 Job was released.
+	The job attribute PeriodicRelease expression '(NumGlobusSubmits < 5)' evaluated to TRUE
+...
+017 (1346.000.000) 04/09 14:51:47 Job submitted to Globus
+    RM-Contact: osgce.cs.clemson.edu/jobmanager-condor
+    JM-Contact: https://osgce.cs.clemson.edu:45157/18142/1270839103/
+    Can-Restart-JM: 1
+...
+027 (1346.000.000) 04/09 14:51:47 Job submitted to grid resource
+    GridResource: gt2 osgce.cs.clemson.edu/jobmanager-condor
+    GridJobId: gt2 osgce.cs.clemson.edu/jobmanager-condor https://osgce.cs.clemson.edu:45157/18142/1270839103/
+...
+001 (1346.000.000) 04/09 14:54:17 Job executing on host: gt2 osgce.cs.clemson.edu/jobmanager-condor
+...
+005 (1346.000.000) 04/09 14:55:58 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (1346.000.000) 04/09 14:56:02 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: job_1
+...

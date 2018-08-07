@@ -1,0 +1,7 @@
+15,17d14
+< /*The mass cutoff to be static*/
+< const static double m_max = 1.0e6;
+< 
+40,41d36
+<   double mu;
+<   double dmu;

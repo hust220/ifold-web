@@ -1,0 +1,26 @@
+<div class="indexTitle">&raquo; {$user->get('namefirst')} {$user->get('namelast')}'s Fold Status</div>
+<br/>
+{if $user->get('emailConfirmed') == 0}
+<strong>
+WARNING - Your current registered email address has not been confirmed with iFold. 
+Until you confirm your address, you will not be allowed to submit new jobs. 
+Check your email for a message from iFold and click the enclosed link to confirm your address.
+</strong><br/><br/>
+{/if}
+<div class="indexStatus">
+{if $numCompleted == 0 && $numProcessing == 0 && $numQueued == 0}
+	You haven't submitted any tasks recently, and there's nothing to pick up.
+{else}
+	{if $numCompleted != 0}
+		<a href="activity.php"><span class="frontIndicator">{$numCompleted} task{if $numCompleted > 1}s are {else} is {/if}ready to be picked up!</span></a><br/>
+	{/if}
+	{if $numProcessing != 0}
+		<a href="taskList.php"><span class="frontIndicator" style="color:#6E96A2">{$numProcessing} task{if $numProcessing > 1}s are {else} is {/if} processing...</span></a><br/>
+	{/if}
+	{if $numQueued != 0}
+		<a href="taskList.php"><span class="frontIndicator" style="color:#A8C3CF">{$numQueued} task{if $numQueued > 1}s are {else} is {/if} queued.</span></a><br/>
+	{/if}
+{/if}
+</div>
+<p>
+Please use the left menu to submit a new task to iFold. <p>To contact iFold administrators, send email to: <a href="mailto:ifold@listserv.unc.edu" alt="iFold Administrators">ifold@listserv.unc.edu</a>.

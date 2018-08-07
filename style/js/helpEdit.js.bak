@@ -1,0 +1,11 @@
+var validateDelete = function() {
+	if (confirm('Do you wish to delete this help page? It cannot be undeleted.')) { 
+		return true; 
+	}
+	return false;
+}
+
+var validateUpdate = function() {
+	return true;
+}
+

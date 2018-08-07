@@ -1,0 +1,3 @@
+JOB    job_1 job.condor
+SCRIPT POST job_1 /var/www/localhost/htdocs/ifold/iFoldDaemon25/postscript.sh /var/www/localhost/htdocs/ifold/iFoldDaemon25
+RETRY  job_1 5

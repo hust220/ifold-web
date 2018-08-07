@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2006-02-14T23:37:33.687500Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib/smarty"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   name="libs"
+   kind="dir"/>
+</wc-entries>

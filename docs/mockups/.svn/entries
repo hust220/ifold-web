@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="120"
+   name=""
+   committed-date="2006-05-04T01:53:44.076250Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/docs/mockups"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="6"
+   name="user_main.jpg"
+   text-time="2006-04-06T23:27:36.000000Z"
+   committed-date="2006-02-06T06:01:05.078125Z"
+   checksum="1a76bef4bed5ecf97bb2df4cde56ca42"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:36.000000Z"/>
+<entry
+   committed-rev="6"
+   name="main.jpg"
+   text-time="2006-04-06T23:27:36.000000Z"
+   committed-date="2006-02-06T06:01:05.078125Z"
+   checksum="dbf282a4c79f3139d948c1e3372ade44"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:36.000000Z"/>
+</wc-entries>

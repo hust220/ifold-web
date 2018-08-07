@@ -1,0 +1,40 @@
+universe        = grid
+grid_type       = gt2
+globusscheduler = $$(GlueCEInfoContactString)
+globusrsl       = (maxWallTime=600)
+requirements    = ((TARGET.GlueCEInfoContactString =!= UNDEFINED) && (TARGET.Rank > 300))
+
+# when retrying, remember the last 4 resources tried
+match_list_length = 4
+Rank             = (TARGET.Rank) - ((TARGET.Name =?= LastMatchName0) * 1000) - ((TARGET.Name =?= LastMatchName1) * 1000) - ((TARGET.Name =?= LastMatchName2) * 1000) - ((TARGET.Name =?= LastMatchName3) * 1000)
+
+# make sure the job is being retried and rematched
+periodic_release = (NumGlobusSubmits < 5)
+globusresubmit = (NumSystemHolds >= NumJobMatches)
+rematch = True
+globus_rematch = True
+
+# only allow for the job to be queued for a while, then try to move it
+periodic_hold = ( ((JobStatus==1) && ((CurrentTime - EnteredCurrentStatus) > (10*60))) || ((JobStatus==2) && ((CurrentTime - EnteredCurrentStatus) > (5*60*60))) )
+
+# stay in queue on failures
+on_exit_remove = (ExitBySignal == False) && (ExitCode == 0)
+
+executable = osg-wrapper
+arguments = 
+
+stream_output = False
+stream_error  = False
+
+WhenToTransferOutput = ON_EXIT
+TransferExecutable = true
+transfer_input_files = inputs.tar.gz
+transfer_output_files = outputs.tar.gz
+
+output = job.out
+error = job.err
+log = job.log
+
+notification = NEVER
+queue
+

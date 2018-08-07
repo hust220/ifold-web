@@ -1,0 +1,673 @@
+<properties>
+	
+	<!-- General Properties -->
+	<configuration>
+		<config>
+			<name>admin_email</name>
+			<value>ifold@listserv.unc.edu</value>
+		</config>
+		<config>
+			<name>smtp_host</name>
+			<value>smtp.unc.edu</value>
+		</config>
+		<config>
+			<name>smtp_user</name>
+			<value></value>
+		</config>
+		<config>
+			<name>smtp_password</name>
+			<value></value>
+		</config>
+		<config>
+			<name>db_host</name>
+			<value>localhost</value>
+		</config>
+		<config>
+			<name>db_user</name>
+			<value>ifold</value>
+		</config>
+		<config>
+			<name>db_password</name>
+			<value>fold4me</value>
+		</config>
+		<config>
+			<name>db_name</name>
+			<value>ifold</value>
+		</config>
+		<config>
+			<name>manager_host</name>
+			<value>troll.med.unc.edu</value>
+		</config>
+		<config>
+			<name>manager_daemon_port</name>
+			<value>30000</value>
+		</config>
+		<config>
+			<name>manager_data_port</name>
+			<value>29998</value>
+		</config>
+		<config>
+			<name>manager_php_port</name>
+			<value>29999</value>
+		</config>
+		<config>
+			<name>upload_directory</name>
+			<value>/var/www/localhost/htdocs/ifold/iFoldManager/uploads</value>
+		</config>
+		<config>
+			<name>download_directory</name>
+			<value>/var/www/localhost/htdocs/ifold/iFoldManager/uploads/</value>
+		</config>
+
+  <daemons>
+
+	<daemon address="152.19.36.1" port="1337"/>
+	<daemon address="152.2.0.59" port="1337"/>
+	<daemon address="152.2.0.60" port="1337"/>
+	<daemon address="152.2.0.61" port="1337"/>
+	<daemon address="152.2.0.62" port="1337"/>
+
+	</daemons>
+
+	</configuration>
+
+	<!-- Daemon Statuses -->
+	<daemonstatuses>
+		<status id="1">Waiting</status>
+		<status id="2">Busy</status>
+		<status id="3">Unknown</status>
+	</daemonstatuses>
+	
+	<!-- Daemon Actions -->
+	<daemonactions>
+		<action id="1">Accept</action>
+		<action id="2">Deny</action>
+	</daemonactions>
+	
+	<!-- These are the queue status types -->
+	<statuslist>
+		<status id='1'>Queued</status>
+		<status id='2'>Pending</status>
+		<status id='3'>Running</status>
+		<status id='4'>Processing</status>
+		<status id='5'>Complete</status>
+		<status id='6'>Paused</status>
+		<status id='7'>Terminated</status>
+		<status id='8'>Unknown</status>
+	</statuslist>
+	
+	<!-- These are the actual output types -->
+	<outputlist>
+		<output id='1'>Contact Freq. Map</output>
+		<output id='2'>CSVsTemp Graph</output>
+		<output id='3'>EnergyVsTemp Graph</output>
+		<output id='4'>EnergyVsTime Graph</output>
+		<output id='5'>RadiusVsTemp Graph</output>
+		<output id='6'>PFold Text Report</output>
+		<output id='7'>Anneal Text Report</output>
+		<output id='8'>Trajectory</output>
+		<output id='9'>Movie Files</output>
+		<output id='10'>.echo Files</output>
+		<output id='11'>.rms Files</output>
+		<output id='12'>Raw Text Output/Input</output>
+		<output id='256'>Unknown</output>
+	</outputlist>
+	
+	<!-- These are the fold types -->
+	
+	<foldtypes>
+		<foldtype id='1'>
+			<name>fold</name>
+			<description>Folding</description>
+			<detailed>
+				<strong>In folding simulations</strong>, folding starts from a linear conformation of the 
+				protein at the initial temperature given, and the temperature is reduced 
+				at the specified rate until the system reaches the final temperature.
+			</detailed>
+		</foldtype>
+		<foldtype id='2'>
+			<name>unfold</name>
+			<description>Unfolding</description>
+			<detailed>
+				<strong>In unfolding simulations</strong>, we start with the native structure of the protein, 
+				simulated at low temperature and slowly raise the temperature of the system 
+				until the protein starts to unfold.
+			</detailed>
+		</foldtype>
+		<foldtype id='3'>
+			<name>thermoscan</name>
+			<description>Thermodynamic Scan</description>
+			<detailed>
+				In this mode we perform constant temperature DMD simulations of the given protein 
+				structure over a range of temperatures to get thermodynamic properties of the simulated 
+				protein.
+			</detailed>
+		</foldtype>
+		<foldtype id='4'>
+			<name>anneal</name>
+			<description>Annealing</description>
+			<detailed>
+				In this mode we start from a high temperature conformation where the protein is 
+				unfolded and slowly reduce the temperature to a very low value, whereby the protein 
+				folds to a stable conformation. This process is repeated a certain number of times, 
+				suddenly raising the temperature from the last stable conformation and allowing the 
+				protein to cool at a very slow rate. Multiple runs ensure that the protein reaches the 
+				most stable conformation, which is hypothesized to be the native state.
+			</detailed>
+		</foldtype>
+		<foldtype id='5'>
+			<name>pfold</name>
+			<description>pFold</description>
+			<nooutputparams>1</nooutputparams>
+			<detailed>
+				Pfold refers to the probability that a given conformation of the protein will fold 
+				before unfolding. It is a quantitative measure of progress in protein folding of the 
+				given conformation.
+			</detailed>
+		</foldtype>
+	</foldtypes>
+	
+	<!-- These are the task parameters -->
+	
+	<taskparams>
+		<taskparam>
+			<name>pdbCode</name>
+			<type>integer</type>
+			<description>PDB File ID (Select this or PDB File Upload but not both)</description>
+			<dependencies>
+				<dependency type="xor"><ref property='taskparam' name='pdbFileName'/></dependency>
+			</dependencies>
+			<viewableAllFolds>1</viewableAllFolds>
+		</taskparam>
+		<taskparam>
+			<name>pdbFileName</name>
+			<type>upload</type>
+			<description>PDB File Upload (Select this or PDB File ID but not both)</description>
+			<dependencies>
+				<dependency type="xor"><ref property='taskparam' name='pdbCode'/></dependency>
+			</dependencies>
+			<viewableAllFolds>1</viewableAllFolds>
+		</taskparam>
+		<taskparam>
+			<name>pdbDecoyFileName</name>
+			<type>upload</type>
+			<description>PDB Decoy File Upload</description>
+			<defaults>
+				<default foldtype='5'></default>
+			</defaults>
+		</taskparam>
+		<taskparam>
+			<name>simTime</name>
+			<type>float</type>
+			<description>Simulation Time</description>
+			<defaults>
+				<default foldtype='1'>100000</default>
+				<default foldtype='2'>100000</default>
+				<default foldtype='3'>50000</default>
+				<default foldtype='4'>10000</default>
+			</defaults>
+			<ranges>
+				<range foldtype='1'>
+					<min>1000</min>
+					<max>100000</max>
+				</range>
+				<range foldtype='2'>
+					<min>1000</min>
+					<max>100000</max>
+				</range>
+				<range foldtype='3'>
+					<min>1000</min>
+					<max>100000</max>
+				</range>
+				<range foldtype='4'>
+					<min>2000</min>
+					<max>20000</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>modelType</name>
+			<type>dropdown</type>
+			<description>Model Type</description>
+			<defaults>
+				<default foldtype='1'>1</default>
+				<default foldtype='2'>2</default>
+				<default foldtype='3'>3</default>
+				<default foldtype='4'>4</default>
+			</defaults>
+			<ranges>
+				<range>
+					<value id='2'>2-bead</value>
+					<value id='1'>1-bead</value>
+					<value id='3'>3-bead</value>
+					<value id='4'>4-bead</value>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>numIterations</name>
+			<type>integer</type>
+			<description>Number of Iterations</description>
+			<defaults>
+				<default foldtype='4'>5</default>
+				<default foldtype='5'>10</default>
+			</defaults>
+			<ranges>
+				<range foldtype='4'>
+					<min>1</min>
+					<max>50</max>
+				</range>
+				<range foldtype='5'>
+					<min>1</min>
+					<max>1000</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>initialTemp</name>
+			<type>float</type>
+			<description>Initial Temperature</description>
+			<defaults>
+				<default foldtype='1'>1.2</default>
+				<default foldtype='2'>.4</default>
+				<default foldtype='4'>1.0</default>
+			</defaults>
+			<ranges>
+				<range foldtype='1'>
+					<min><ref property='taskparam' name='finalTemp'/></min>
+					<max>10</max>
+				</range>
+				<range foldtype='2'>
+					<min>0.001</min>
+					<max><ref property='taskparam' name='finalTemp'/></max>
+				</range>
+				<range foldtype='4'>
+					<min><ref property='taskparam' name='finalTemp'/></min>
+					<max>3</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>finalTemp</name>
+			<type>float</type>
+			<description>FinalTemperature</description>
+			<defaults>
+				<default foldtype='1'>0.2</default>
+				<default foldtype='2'>1.2</default>
+				<default foldtype='4'>0.3</default>
+			</defaults>
+			<ranges>
+				<range foldtype='1'>
+					<min>0</min>
+					<max><ref property='taskparam' name='initialTemp'/></max>
+				</range>
+				<range foldtype='2'>
+					<min><ref property='taskparam' name='initialTemp'/></min>
+					<max>3.0</max>
+				</range>
+				<range foldtype='4'>
+					<min>0.001</min>
+					<max><ref property='taskparam' name='initialTemp'/></max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>heatExchCo</name>
+			<type>float</type>
+			<description>Heat Exchange Coefficient</description>
+			<defaults>
+				<default foldtype='1'>.0001</default>
+				<default foldtype='2'>.0001</default>
+				<default foldtype='3'>.0001</default>
+				<default foldtype='4'>.0001</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>.005</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>transTemp</name>
+			<type>float</type>
+			<description>Transition Temperature</description>
+			<defaults>
+				<default foldtype='5'>0.8</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0.001</min>
+					<max>3.0</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>temp1</name>
+			<type>float</type>
+			<description>Temperature 1</description>
+			<defaults>
+				<default foldtype='3'>0.6</default>
+			</defaults>
+			<ranges>
+				<range foldtype='3'>
+					<min>0</min>
+					<max>10</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>temp2</name>
+			<type>float</type>
+			<description>Temperature 2</description>
+			<defaults>
+				<default foldtype='3'>0.7</default>
+			</defaults>
+			<ranges>
+				<range foldtype='3'>
+					<min>0</min>
+					<max>10</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>temp3</name>
+			<type>float</type>
+			<description>Temperature 3</description>
+			<defaults>
+				<default foldtype='3'>0.8</default>
+			</defaults>
+			<ranges>
+				<range foldtype='3'>
+					<min>0</min>
+					<max>10</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>temp4</name>
+			<type>float</type>
+			<description>Temperature 4</description>
+			<defaults>
+				<default foldtype='3'>0.9</default>
+			</defaults>
+			<ranges>
+				<range foldtype='3'>
+					<min>0</min>
+					<max>10</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>temp5</name>
+			<type>float</type>
+			<description>Temperature 5</description>
+			<defaults>
+				<default foldtype='3'>1.0</default>
+			</defaults>
+			<ranges>
+				<range foldtype='3'>
+					<min>0</min>
+					<max>10</max>
+				</range>
+			</ranges>
+		</taskparam>
+		<taskparam>
+			<name>temp6</name>
+			<type>float</type>
+			<description>Temperature 6</description>
+			<defaults>
+				<default foldtype='3'>1.1</default>
+			</defaults>
+			<ranges>
+				<range foldtype='3'>
+					<min>0</min>
+					<max>10</max>
+				</range>
+			</ranges>
+		</taskparam>
+	</taskparams>
+	
+	<!-- These are the task outputs -->
+	
+	<taskoutputs>
+		<taskoutput>
+			<name>trajMin</name>
+			<type>integer</type>
+			<displaytype>text</displaytype>
+			<description>Entire Trajectory (zipped): Lower Time Limit (set to 0 if zip is not needed)</description>
+			<defaults>
+				<default foldtype='1'>0</default>
+				<default foldtype='2'>0</default>
+				<default foldtype='4'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max><ref property='taskparam' name='simTime'/></max>
+				</range>
+			</ranges>
+			<dependencies>
+				<dependency type="and"><ref property='taskoutput' name='trajMax'/></dependency>
+				<dependency type="and"><ref property='taskoutput' name='trajInterval'/></dependency>
+			</dependencies>
+		</taskoutput>
+		<taskoutput>
+			<name>trajMax</name>
+			<type>integer</type>
+			<displaytype>text</displaytype>
+			<description>Entire Trajectory (zipped): Higher Time limit (set to 0 if zip is not needed)</description>
+			<defaults>
+				<default foldtype='1'>0</default>
+				<default foldtype='2'>0</default>
+				<default foldtype='4'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min><ref property='taskoutput' name='trajMin'/></min>
+					<max><ref property='taskparam' name='simTime'/></max>
+				</range>
+			</ranges>
+			<dependencies>
+				<dependency type="and"><ref property='taskoutput' name='trajMin'/></dependency>
+				<dependency type="and"><ref property='taskoutput' name='trajInterval'/></dependency>
+			</dependencies>
+		</taskoutput>
+		<taskoutput>
+			<name>trajInterval</name>
+			<type>integer</type>
+			<displaytype>text</displaytype>
+			<description>Entire Trajectory (zipped): Time Interval</description>
+			<defaults>
+				<default foldtype='1'>1</default>
+				<default foldtype='2'>1</default>
+				<default foldtype='4'>1</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max><ref property='taskparam' name='simTime'/></max>
+				</range>
+			</ranges>
+			<dependencies>
+				<dependency type="and"><ref property='taskoutput' name='trajMin'/></dependency>
+				<dependency type="and"><ref property='taskoutput' name='trajMax'/></dependency>
+			</dependencies>
+		</taskoutput>
+		<taskoutput>
+			<name>energyVsTime</name>
+			<type>boolean</type>
+			<displaytype>checkbox</displaytype>
+			<description>Energy Vs. Simulation Time Graph</description>
+			<type>boolean</type>
+			<defaults>
+				<default foldtype='1'>0</default>
+				<default foldtype='2'>0</default>
+				<default foldtype='4'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>1</max>
+				</range>
+			</ranges>
+		</taskoutput>
+		<taskoutput>
+			<name>energyVsTemp</name>
+			<type>boolean</type>
+			<displaytype>checkbox</displaytype>
+			<description>Energy Vs. Temperature Graph</description>
+			<defaults>
+				<default foldtype='1'>0</default>
+				<default foldtype='2'>0</default>
+				<default foldtype='3'>0</default>
+				<default foldtype='4'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>1</max>
+				</range>
+			</ranges>
+		</taskoutput>
+		
+		<taskoutput>
+			<name>radiusVsTime</name>
+			<type>boolean</type>
+			<displaytype>checkbox</displaytype>
+			<description>Mean Radius of Gyration Vs. Simulation Time Graph</description>
+			<defaults>
+				<default foldtype='1'>0</default>
+				<default foldtype='2'>0</default>
+				<default foldtype='4'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>1</max>
+				</range>
+			</ranges>
+		</taskoutput>
+		<taskoutput>
+			<name>contactFreqMap</name>
+			<type>boolean</type>
+			<displaytype>checkbox</displaytype>
+			<description>Frequencies of Inter-residue Contacts Made Over the Given Range of Temperature</description>
+			<defaults>
+				<default foldtype='3'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>1</max>
+				</range>
+			</ranges>
+		</taskoutput>
+		<taskoutput>
+			<name>cvVsTemp</name>
+			<type>boolean</type>
+			<displaytype>checkbox</displaytype>
+			<description>Heat Capacity Vs. Temperature</description>
+			<defaults>
+				<default foldtype='3'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>1</max>
+				</range>
+			</ranges>
+			<dependencies>
+				<dependency type="and"><ref property='taskoutput' name='equilOffset'/></dependency>
+			</dependencies>
+		</taskoutput>
+		<taskoutput>
+			<name>equilOffset</name>
+			<type>integer</type>
+			<displaytype>checkbox</displaytype>
+			<description>Equilibrium Offset (required if you selected cvVsTemp Output)</description>
+			<defaults>
+				<default foldtype='3'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max><ref property="taskparam" name="simTime"/></max>
+				</range>
+			</ranges>
+		</taskoutput>
+		<taskoutput>
+			<name>mov</name>
+			<type>integer</type>
+			<displaytype>checkbox</displaytype>
+			<description>Mov Files</description>
+			<defaults>
+				<default foldtype='1'>0</default>
+				<default foldtype='2'>0</default>
+				<default foldtype='3'>0</default>
+				<default foldtype='4'>0</default>
+				<default foldtype='5'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>1</max>
+				</range>
+			</ranges>
+		</taskoutput>
+		<taskoutput>
+			<name>echo</name>
+			<type>integer</type>
+			<displaytype>checkbox</displaytype>
+			<description>Echo Files</description>
+			<defaults>
+				<default foldtype='1'>0</default>
+				<default foldtype='2'>0</default>
+				<default foldtype='3'>0</default>
+				<default foldtype='4'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>1</max>
+				</range>
+			</ranges>
+		</taskoutput>
+		<taskoutput>
+			<name>rms</name>
+			<type>integer</type>
+			<displaytype>checkbox</displaytype>
+			<description>RMS Files</description>
+			<defaults>
+				<default foldtype='1'>0</default>
+				<default foldtype='2'>0</default>
+				<default foldtype='3'>0</default>
+				<default foldtype='4'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>1</max>
+				</range>
+			</ranges>
+		</taskoutput>
+		<taskoutput>
+			<name>raw</name>
+			<type>integer</type>
+			<displaytype>checkbox</displaytype>
+			<description>Raw Text (NOT Recommended!)</description>
+			<defaults>
+				<default foldtype='1'>0</default>
+				<default foldtype='2'>0</default>
+				<default foldtype='3'>0</default>
+				<default foldtype='4'>0</default>
+			</defaults>
+			<ranges>
+				<range>
+					<min>0</min>
+					<max>1</max>
+				</range>
+			</ranges>
+		</taskoutput>
+	</taskoutputs>
+</properties>

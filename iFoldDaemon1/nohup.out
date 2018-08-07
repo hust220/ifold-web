@@ -1,0 +1,2 @@
+Exception in thread "Thread-2" java.lang.NullPointerException
+	at org.ifold.daemon.DaemonListener.run(DaemonListener.java:57)

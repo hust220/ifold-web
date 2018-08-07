@@ -1,0 +1,8 @@
+<?php /* Smarty version 2.6.11, created on 2006-03-18 20:03:46
+         compiled from introduction.tpl */ ?>
+Welcome to iFold. Here we'll talk about how easy it is
+to submit a job to iFold as well as steps you should take,
+screenshots, etc. Here are some quick notes:
+<ul>
+	<li>Once you register, you are instantly logged in. This will change in the final version.</li>
+</ul>

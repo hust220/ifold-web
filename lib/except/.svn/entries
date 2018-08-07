@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10"
+   name=""
+   committed-date="2006-02-14T23:55:10.875000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib/except"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="10"
+   name="DBDuplicateRowException.class.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:55:10.875000Z"
+   checksum="e21375cf932c458e73622fafcb577035"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="10"
+   name="DBRecordNotFoundException.class.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:55:10.875000Z"
+   checksum="3ecd8dc63b2ced7382c91ce37f82bbc1"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+</wc-entries>

@@ -1,0 +1,21 @@
+universe        = grid
+grid_type       = gt2
+globusscheduler = lepton.rcac.purdue.edu/jobmanager-pbs
+globusrsl       = (queue=standby)(jobtype=mpi)(host_xcount=2)(xcount=2)
+
+executable = my-mpi-exec
+
+stream_output = False
+stream_error  = False
+
+WhenToTransferOutput = ON_EXIT
+TransferExecutable = True
+
+output = job.out
+error = job.err
+log = job.log
+
+notification = NEVER
+
+queue
+

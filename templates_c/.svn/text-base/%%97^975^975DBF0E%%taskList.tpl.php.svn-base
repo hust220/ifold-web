@@ -1,0 +1,151 @@
+<?php /* Smarty version 2.6.11, created on 2006-04-06 05:30:32
+         compiled from taskList.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'taskList.tpl', 12, false),array('function', 'cycle', 'taskList.tpl', 38, false),array('modifier', 'default', 'taskList.tpl', 41, false),array('modifier', 'truncate', 'taskList.tpl', 51, false),array('modifier', 'date_format', 'taskList.tpl', 71, false),)), $this); ?>
+<script src="style/js/queue.js" language="javascript" type="text/javascript"></script>
+<?php echo '
+<script language="javascript" type="text/javascript">
+onload = function() {
+	if ($F(\'userLevel\') >= \'5\') {
+		hideShowCompleted ($(\'hideCompleted\'), \'hide\', 0);
+	}
+}
+</script>
+'; ?>
+
+<input type="hidden" id="userLevel" name="userLevel" value="<?php echo $this->_tpl_vars['user']->get('level'); ?>
+" />
+<?php echo smarty_function_counter(array('assign' => 'myTasksCount','start' => 0), $this);?>
+
+<?php $_from = $this->_tpl_vars['queue']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['key'] => $this->_tpl_vars['queueItem']):
+?>
+	<?php if ($this->_tpl_vars['queueItem']['user']->get('id') == $this->_tpl_vars['user']->get('id')): ?>
+		<?php echo smarty_function_counter(array('print' => false), $this);?>
+
+	<?php endif; ?>
+<?php endforeach; endif; unset($_from); ?>
+There are <strong><?php  echo count($this->_tpl_vars['queue']); ?></strong> tasks in the queue.
+<strong><?php echo $this->_tpl_vars['myTasksCount']; ?>
+</strong> of them are yours.
+<br/><br/>
+<?php if (( $this->_tpl_vars['user']->get('level') >= 5 )): ?>
+	<div id="hideCompleted" onClick="hideShowCompleted(this,'hide',1)">hide completed tasks</div>
+<?php endif; ?>
+<br/>
+<div id="queueMessages" class="ajaxMessages"></div><br/>
+<div id="queue">
+	<table id="queueTable" border="0" cellpadding="0" cellspacing="0" class="ifoldTable">
+		<tr>
+			<th align="left" valign="top" width="30">Q #</th>
+			<th align="left" valign="top">Name</th>
+			<th align="left" valign="top">Description</th>
+			<th align="left" valign="top">Created</th>
+			<th align="left" valign="top">Created By</th>
+			<th align="left" valign="top">Status</th>
+			<th align="left" valign="top" class="alt">Functions</th>
+		</tr>
+	<?php $_from = $this->_tpl_vars['queue']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['key'] => $this->_tpl_vars['queueItem']):
+?>
+		<tr id="<?php echo $this->_tpl_vars['queueItem']['task']->get('id'); ?>
+_<?php echo $this->_tpl_vars['queueItem']['task']->get('status'); ?>
+" class="<?php echo smarty_function_cycle(array('values' => "normal,alt"), $this);?>
+" onMouseOver="this.highlightRow()" onMouseOut="this.unhighlightRow()" >
+			<td id="<?php echo $this->_tpl_vars['queueItem']['task']->get('id'); ?>
+_queuenum" align="left" valign="top">
+				<?php if ($this->_tpl_vars['queueItem']['task']->get('status') == 1): ?>
+					<span class="bigQueueNum"><?php echo ((is_array($_tmp=@$this->_tpl_vars['queueItem']['task']->get('queuenum'))) ? $this->_run_mod_handler('default', true, $_tmp, "&nbsp;") : smarty_modifier_default($_tmp, "&nbsp;")); ?>
+</span>
+				<?php elseif ($this->_tpl_vars['queueItem']['task']->get('status') == 2 || $this->_tpl_vars['queueItem']['task']->get('status') == 3): ?>
+					<img src="style/img/indicator_white.gif" alt="Running/Processing Task" />
+				<?php else: ?>
+					&nbsp;
+				<?php endif; ?>
+			</td>
+			<td id="<?php echo $this->_tpl_vars['queueItem']['task']->get('id'); ?>
+_name" align="left" valign="top">
+				<?php if (( $this->_tpl_vars['user']->get('level') < 5 )): ?>
+					<?php if ($this->_tpl_vars['queueItem']['user']->get('id') == $this->_tpl_vars['user']->get('id')): ?>
+							<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['queueItem']['task']->get('name'))) ? $this->_run_mod_handler('truncate', true, $_tmp, 12, "...", true) : smarty_modifier_truncate($_tmp, 12, "...", true)))) ? $this->_run_mod_handler('default', true, $_tmp, "&nbsp;") : smarty_modifier_default($_tmp, "&nbsp;")); ?>
+
+					<?php else: ?>
+						--
+					<?php endif; ?>
+				<?php else: ?>
+					<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['queueItem']['task']->get('name'))) ? $this->_run_mod_handler('truncate', true, $_tmp, 12, "...", true) : smarty_modifier_truncate($_tmp, 12, "...", true)))) ? $this->_run_mod_handler('default', true, $_tmp, "&nbsp;") : smarty_modifier_default($_tmp, "&nbsp;")); ?>
+
+				<?php endif; ?>
+			</td>
+			<td class="taskdescription" id="<?php echo $this->_tpl_vars['queueItem']['task']->get('id'); ?>
+_description" align="left" valign="top">
+				<?php if (( $this->_tpl_vars['user']->get('level') < 5 )): ?>
+					<?php if ($this->_tpl_vars['queueItem']['user']->get('id') == $this->_tpl_vars['user']->get('id')): ?>
+							<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['queueItem']['task']->get('description'))) ? $this->_run_mod_handler('truncate', true, $_tmp, 20, "...", true) : smarty_modifier_truncate($_tmp, 20, "...", true)))) ? $this->_run_mod_handler('default', true, $_tmp, "&nbsp;") : smarty_modifier_default($_tmp, "&nbsp;")); ?>
+
+					<?php else: ?>
+						--
+					<?php endif; ?>
+				<?php else: ?>
+					<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['queueItem']['task']->get('description'))) ? $this->_run_mod_handler('truncate', true, $_tmp, 20, "...", true) : smarty_modifier_truncate($_tmp, 20, "...", true)))) ? $this->_run_mod_handler('default', true, $_tmp, "&nbsp;") : smarty_modifier_default($_tmp, "&nbsp;")); ?>
+
+				<?php endif; ?>
+			</td>
+			<td id="<?php echo $this->_tpl_vars['queueItem']['task']->get('id'); ?>
+_created_on" align="left" valign="top">
+				<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['queueItem']['task']->get('created_on'))) ? $this->_run_mod_handler('date_format', true, $_tmp, "%B %e, %Y at %I:%M %p") : smarty_modifier_date_format($_tmp, "%B %e, %Y at %I:%M %p")))) ? $this->_run_mod_handler('default', true, $_tmp, "&nbsp;") : smarty_modifier_default($_tmp, "&nbsp;")); ?>
+
+			</td>
+			<td id="<?php echo $this->_tpl_vars['queueItem']['task']->get('id'); ?>
+_user" align="left" valign="top">
+				<?php if (( $this->_tpl_vars['user']->get('level') < 5 )): ?>
+					<?php if ($this->_tpl_vars['queueItem']['user']->get('id') == $this->_tpl_vars['user']->get('id')): ?>
+							<?php echo ((is_array($_tmp=@$this->_tpl_vars['queueItem']['user']->get('username'))) ? $this->_run_mod_handler('default', true, $_tmp, "&nbsp;") : smarty_modifier_default($_tmp, "&nbsp;")); ?>
+
+					<?php else: ?>
+						--
+					<?php endif; ?>
+				<?php else: ?>
+					<?php echo ((is_array($_tmp=@$this->_tpl_vars['queueItem']['user']->get('username'))) ? $this->_run_mod_handler('default', true, $_tmp, "&nbsp;") : smarty_modifier_default($_tmp, "&nbsp;")); ?>
+
+				<?php endif; ?>
+			</td>
+			<td id="<?php echo $this->_tpl_vars['queueItem']['task']->get('id'); ?>
+_status" align="left" valign="top">
+				<?php if ($this->_tpl_vars['queueItem']['task']->get('status') == 4): ?>
+					<img src="style/img/loading.gif" />
+				<?php endif; ?>
+				<?php 
+				echo $this->_tpl_vars['foldstatus'][$this->_tpl_vars['queueItem']['task']->get('status')];
+				 ?>
+			</td>
+			<td id="<?php echo $this->_tpl_vars['queueItem']['task']->get('id'); ?>
+_functions" align="left" valign="top" class="alt">
+				<?php if ($this->_tpl_vars['queueItem']['task']->get('status') != 2 && $this->_tpl_vars['queueItem']['task']->get('status') != 3 && $this->_tpl_vars['queueItem']['task']->get('status') != 4 && $this->_tpl_vars['queueItem']['task']->get('status') != 8): ?>
+					<?php if (( ( ( $this->_tpl_vars['user']->get('level') < 5 ) && ( $this->_tpl_vars['queueItem']['user']->get('id') == $this->_tpl_vars['user']->get('id') ) ) || ( $this->_tpl_vars['user']->get('level') > 5 ) )): ?>
+							<img src="style/img/a_user-idelete.png" alt="Delete <?php echo $this->_tpl_vars['queueItem']['task']->get('name'); ?>
+" title="Delete <?php echo $this->_tpl_vars['queueItem']['task']->get('name'); ?>
+" style="cursor:pointer" onclick="if (confirm('Are you sure you want to delete the task: <?php echo $this->_tpl_vars['queueItem']['task']->get('name'); ?>
+')) deleteRow(this)"/>
+					<?php else: ?>
+						&nbsp;
+					<?php endif; ?>
+				<?php endif; ?>
+				<?php if (( ( ( $this->_tpl_vars['user']->get('level') < 5 ) && ( $this->_tpl_vars['queueItem']['user']->get('id') == $this->_tpl_vars['user']->get('id') ) ) || ( $this->_tpl_vars['user']->get('level') > 5 ) )): ?>
+						<img src="style/img/edit-find-small.png" alt="Look at the task parameters for <?php echo $this->_tpl_vars['queueItem']['task']->get('name'); ?>
+" title="Look at the task parameters for <?php echo $this->_tpl_vars['queueItem']['task']->get('name'); ?>
+" style="cursor:pointer" onclick="loadParameters('<?php echo $this->_tpl_vars['queueItem']['task']->get('id'); ?>
+')"/>
+				<?php else: ?>
+					&nbsp;
+				<?php endif; ?>
+			</td>
+		</tr>
+	<?php endforeach; endif; unset($_from); ?>
+	</table>
+</div>
+<div id="overlayParams" onclick="hideParameters()">
+     <div id="paramsBox">
+          
+     </div>
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="132"
+   name=""
+   committed-date="2006-05-11T16:42:36.161250Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/config"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="132"
+   name="properties.xml"
+   text-time="2006-05-11T16:36:32.000000Z"
+   committed-date="2006-05-11T16:42:36.161250Z"
+   checksum="6f2a688f0ba1a883a81540a03bf5080b"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-11T16:36:32.000000Z"/>
+</wc-entries>

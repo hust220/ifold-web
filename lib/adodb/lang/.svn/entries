@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2006-02-14T23:37:33.687500Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib/adodb/lang"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="9"
+   name="adodb-pl.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="333e11e85411307b88ea16bdf8996d21"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-it.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="15e2c634116779844db3c9e8f1c4ceb0"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-hu.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="f308d107e1335ec36f71f101bc5324cf"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-cz.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="6964322c13c74d4435a42c3d14ab7d6a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-ro.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="779e6c52a20bce569e066aba65c60003"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-ca.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="96da87b3d200b73bec20effd5fb147ef"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-da.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="2ea23878b1027f3d07c8a9b8bbe4e3a3"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-pt-br.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="e9737d7f00879fed608f70fc315029cc"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-de.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="26c57777b17e3ff924b83d3ac36a6e1c"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-bg.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="666dcae97c0af42eb0e05ef6d3142978"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-sv.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="81fac3276333ca136f83c1f3c35f5f3f"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-uk1251.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="320306b503da23dbe82faf07510d107f"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-bgutf8.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="63163113e58eeb2b8c266e0ed0979ab0"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-ru1251.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="e828ddb6371ea135bfff0d6b59229eb3"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-esperanto.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="32b94a998cb1a8b1ee14089af407d585"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-cn.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="155efb4dceeced3de044f660a9528265"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-en.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="0820efeceaa0126b74158721c39dc48e"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-ar.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="6f2a34557221b1f08c4232dc7745da3e"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-fr.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="dd47dbd2afc066b15e4944297da957b2"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-es.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="de0722a45173d1e076216f41090232d1"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb-nl.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="ed3d417b04f361e178f1a258d193b929"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+</wc-entries>

@@ -1,0 +1,896 @@
+4/9 14:35:26 ******************************************************
+4/9 14:35:26 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+4/9 14:35:26 ** /home/condor/condor-6.8.5/bin/condor_dagman
+4/9 14:35:26 ** $CondorVersion: 6.8.5 May 17 2007 $
+4/9 14:35:26 ** $CondorPlatform: I386-LINUX_RHEL3 $
+4/9 14:35:26 ** PID = 12410
+4/9 14:35:26 ** Log last touched time unavailable (No such file or directory)
+4/9 14:35:26 ******************************************************
+4/9 14:35:26 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+4/9 14:35:26 Using local config sources: 
+4/9 14:35:26    /home/condor/condor-6.8.5/local.troll/condor_config.local
+4/9 14:35:26 DaemonCore: Command Socket at <152.19.64.130:50664>
+4/9 14:35:26 DAGMAN_SUBMIT_DELAY setting: 0
+4/9 14:35:26 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+4/9 14:35:26 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+4/9 14:35:26 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+4/9 14:35:26 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+4/9 14:35:26 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+4/9 14:35:26 DAGMAN_RETRY_NODE_FIRST setting: 0
+4/9 14:35:26 DAGMAN_MAX_JOBS_IDLE setting: 0
+4/9 14:35:26 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+4/9 14:35:26 DAGMAN_MUNGE_NODE_NAMES setting: 1
+4/9 14:35:26 DAGMAN_DELETE_OLD_LOGS setting: 1
+4/9 14:35:26 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+4/9 14:35:26 DAGMAN_ABORT_DUPLICATES setting: 0
+4/9 14:35:26 argv[0] == "condor_scheduniv_exec.1343.0"
+4/9 14:35:26 argv[1] == "-Debug"
+4/9 14:35:26 argv[2] == "3"
+4/9 14:35:26 argv[3] == "-Lockfile"
+4/9 14:35:26 argv[4] == "job.dagman.lock"
+4/9 14:35:26 argv[5] == "-Condorlog"
+4/9 14:35:26 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+4/9 14:35:26 argv[7] == "-Dag"
+4/9 14:35:26 argv[8] == "job.dagman"
+4/9 14:35:26 argv[9] == "-Rescue"
+4/9 14:35:26 argv[10] == "job.dagman.rescue"
+4/9 14:35:26 DAG Lockfile will be written to job.dagman.lock
+4/9 14:35:26 DAG Input file is job.dagman
+4/9 14:35:26 Rescue DAG will be written to job.dagman.rescue
+4/9 14:35:26 All DAG node user log files:
+4/9 14:35:26   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+4/9 14:35:26 Parsing job.dagman ...
+4/9 14:35:26 Dag contains 1 total jobs
+4/9 14:35:26 Truncating any older versions of log files...
+4/9 14:35:26 MultiLogFiles: truncating older version of /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log
+4/9 14:35:26 Bootstrapping...
+4/9 14:35:26 Number of pre-completed nodes: 0
+4/9 14:35:26 Registering condor_event_timer...
+4/9 14:35:27 Got node job_1 from the ready queue
+4/9 14:35:27 Submitting Condor Node job_1 job(s)...
+4/9 14:35:27 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1343 -a DAGManJobId' '=' '1343 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/9 14:35:27 From submit: Submitting job(s).
+4/9 14:35:27 From submit: Logging submit event(s).
+4/9 14:35:27 From submit: 1 job(s) submitted to cluster 1344.
+4/9 14:35:27 	assigned Condor ID (1344.0)
+4/9 14:35:27 Just submitted 1 job this cycle...
+4/9 14:35:27 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+4/9 14:35:27 Number of idle job procs: 1
+4/9 14:35:27 Of 1 nodes total:
+4/9 14:35:27  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+4/9 14:35:27   ===     ===      ===     ===     ===        ===      ===
+4/9 14:35:27     0       0        1       0       0          0        0
+4/9 14:36:27 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/9 14:36:27 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/9 14:46:12 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/9 14:46:12 Number of idle job procs: 1
+4/9 14:46:32 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+4/9 14:51:57 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/9 14:51:57 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/9 14:56:42 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/9 14:56:42 Number of idle job procs: 1
+4/9 14:57:32 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+4/9 15:02:07 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/9 15:02:07 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/9 15:07:57 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/9 15:07:57 Number of idle job procs: 1
+4/9 15:08:27 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+4/9 15:12:22 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/9 15:12:22 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/9 15:19:07 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/9 15:19:07 Number of idle job procs: 1
+4/9 15:19:27 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+4/9 15:22:32 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/9 15:22:32 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/9 15:30:22 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/9 15:30:22 Number of idle job procs: 1
+8/5 18:13:41 ******************************************************
+8/5 18:13:41 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+8/5 18:13:41 ** /home/condor/condor-6.8.5/bin/condor_dagman
+8/5 18:13:41 ** $CondorVersion: 6.8.5 May 17 2007 $
+8/5 18:13:41 ** $CondorPlatform: I386-LINUX_RHEL3 $
+8/5 18:13:41 ** PID = 6344
+8/5 18:13:41 ** Log last touched 8/5 18:09:56
+8/5 18:13:41 ******************************************************
+8/5 18:13:41 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+8/5 18:13:41 Using local config sources: 
+8/5 18:13:41    /home/condor/condor-6.8.5/local.troll/condor_config.local
+8/5 18:13:41 DaemonCore: Command Socket at <152.19.64.130:43147>
+8/5 18:13:41 DAGMAN_SUBMIT_DELAY setting: 0
+8/5 18:13:41 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+8/5 18:13:41 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+8/5 18:13:41 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+8/5 18:13:41 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+8/5 18:13:41 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+8/5 18:13:41 DAGMAN_RETRY_NODE_FIRST setting: 0
+8/5 18:13:41 DAGMAN_MAX_JOBS_IDLE setting: 0
+8/5 18:13:41 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+8/5 18:13:41 DAGMAN_MUNGE_NODE_NAMES setting: 1
+8/5 18:13:41 DAGMAN_DELETE_OLD_LOGS setting: 1
+8/5 18:13:41 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+8/5 18:13:41 DAGMAN_ABORT_DUPLICATES setting: 0
+8/5 18:13:41 argv[0] == "condor_scheduniv_exec.1343.0"
+8/5 18:13:41 argv[1] == "-Debug"
+8/5 18:13:41 argv[2] == "3"
+8/5 18:13:41 argv[3] == "-Lockfile"
+8/5 18:13:41 argv[4] == "job.dagman.lock"
+8/5 18:13:41 argv[5] == "-Condorlog"
+8/5 18:13:41 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+8/5 18:13:41 argv[7] == "-Dag"
+8/5 18:13:41 argv[8] == "job.dagman"
+8/5 18:13:41 argv[9] == "-Rescue"
+8/5 18:13:41 argv[10] == "job.dagman.rescue"
+8/5 18:13:41 DAG Lockfile will be written to job.dagman.lock
+8/5 18:13:41 DAG Input file is job.dagman
+8/5 18:13:41 Rescue DAG will be written to job.dagman.rescue
+8/5 18:13:41 All DAG node user log files:
+8/5 18:13:41   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+8/5 18:13:41 Parsing job.dagman ...
+8/5 18:13:41 Dag contains 1 total jobs
+8/5 18:13:41 Lock file job.dagman.lock detected, 
+8/5 18:13:41 Bootstrapping...
+8/5 18:13:41 Number of pre-completed nodes: 0
+8/5 18:13:41 Running in RECOVERY mode...
+8/5 18:13:41 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Number of idle job procs: 1
+8/5 18:13:41 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+8/5 18:13:41 Number of idle job procs: 1
+8/5 18:13:41 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+8/5 18:13:41 Number of idle job procs: 1
+8/5 18:13:41 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+8/5 18:13:41 Number of idle job procs: 1
+8/5 18:13:41 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+8/5 18:13:41 Number of idle job procs: 1
+8/5 18:13:41 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+8/5 18:13:41 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+8/5 18:13:41 Number of idle job procs: 1
+8/5 18:13:41     ------------------------------
+8/5 18:13:41        Condor Recovery Complete
+8/5 18:13:41     ------------------------------
+8/5 18:13:41 Registering condor_event_timer...
+8/5 18:13:42 Of 1 nodes total:
+8/5 18:13:42  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+8/5 18:13:42   ===     ===      ===     ===     ===        ===      ===
+8/5 18:13:42     0       0        1       0       0          0        0
+10/12 18:30:58 ******************************************************
+10/12 18:30:58 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+10/12 18:30:58 ** /home/condor/condor-6.8.5/bin/condor_dagman
+10/12 18:30:58 ** $CondorVersion: 6.8.5 May 17 2007 $
+10/12 18:30:58 ** $CondorPlatform: I386-LINUX_RHEL3 $
+10/12 18:30:58 ** PID = 6301
+10/12 18:30:58 ** Log last touched 10/12 17:43:25
+10/12 18:30:58 ******************************************************
+10/12 18:30:58 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+10/12 18:30:58 Using local config sources: 
+10/12 18:30:58    /home/condor/condor-6.8.5/local.troll/condor_config.local
+10/12 18:30:58 DaemonCore: Command Socket at <152.19.64.130:35321>
+10/12 18:30:58 DAGMAN_SUBMIT_DELAY setting: 0
+10/12 18:30:58 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+10/12 18:30:58 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+10/12 18:30:58 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+10/12 18:30:58 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+10/12 18:30:58 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+10/12 18:30:58 DAGMAN_RETRY_NODE_FIRST setting: 0
+10/12 18:30:58 DAGMAN_MAX_JOBS_IDLE setting: 0
+10/12 18:30:58 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+10/12 18:30:58 DAGMAN_MUNGE_NODE_NAMES setting: 1
+10/12 18:30:58 DAGMAN_DELETE_OLD_LOGS setting: 1
+10/12 18:30:58 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+10/12 18:30:58 DAGMAN_ABORT_DUPLICATES setting: 0
+10/12 18:30:58 argv[0] == "condor_scheduniv_exec.1343.0"
+10/12 18:30:58 argv[1] == "-Debug"
+10/12 18:30:58 argv[2] == "3"
+10/12 18:30:58 argv[3] == "-Lockfile"
+10/12 18:30:58 argv[4] == "job.dagman.lock"
+10/12 18:30:58 argv[5] == "-Condorlog"
+10/12 18:30:58 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+10/12 18:30:58 argv[7] == "-Dag"
+10/12 18:30:58 argv[8] == "job.dagman"
+10/12 18:30:58 argv[9] == "-Rescue"
+10/12 18:30:58 argv[10] == "job.dagman.rescue"
+10/12 18:30:58 DAG Lockfile will be written to job.dagman.lock
+10/12 18:30:58 DAG Input file is job.dagman
+10/12 18:30:58 Rescue DAG will be written to job.dagman.rescue
+10/12 18:30:58 All DAG node user log files:
+10/12 18:30:58   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+10/12 18:30:58 Parsing job.dagman ...
+10/12 18:30:58 Dag contains 1 total jobs
+10/12 18:30:58 Lock file job.dagman.lock detected, 
+10/12 18:30:58 Bootstrapping...
+10/12 18:30:58 Number of pre-completed nodes: 0
+10/12 18:30:58 Running in RECOVERY mode...
+10/12 18:30:58 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Number of idle job procs: 1
+10/12 18:30:58 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/12 18:30:58 Number of idle job procs: 1
+10/12 18:30:58 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/12 18:30:58 Number of idle job procs: 1
+10/12 18:30:58 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/12 18:30:58 Number of idle job procs: 1
+10/12 18:30:58 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/12 18:30:58 Number of idle job procs: 1
+10/12 18:30:58 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/12 18:30:58 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/12 18:30:58 Number of idle job procs: 1
+10/12 18:30:58     ------------------------------
+10/12 18:30:58        Condor Recovery Complete
+10/12 18:30:58     ------------------------------
+10/12 18:30:58 Registering condor_event_timer...
+10/12 18:30:59 Of 1 nodes total:
+10/12 18:30:59  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/12 18:30:59   ===     ===      ===     ===     ===        ===      ===
+10/12 18:30:59     0       0        1       0       0          0        0
+10/18 09:14:19 ******************************************************
+10/18 09:14:19 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+10/18 09:14:19 ** /home/condor/condor-6.8.5/bin/condor_dagman
+10/18 09:14:19 ** $CondorVersion: 6.8.5 May 17 2007 $
+10/18 09:14:19 ** $CondorPlatform: I386-LINUX_RHEL3 $
+10/18 09:14:19 ** PID = 6332
+10/18 09:14:19 ** Log last touched 10/17 08:17:00
+10/18 09:14:19 ******************************************************
+10/18 09:14:19 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+10/18 09:14:19 Using local config sources: 
+10/18 09:14:19    /home/condor/condor-6.8.5/local.troll/condor_config.local
+10/18 09:14:19 DaemonCore: Command Socket at <152.19.64.130:53873>
+10/18 09:14:19 DAGMAN_SUBMIT_DELAY setting: 0
+10/18 09:14:19 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+10/18 09:14:19 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+10/18 09:14:19 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+10/18 09:14:19 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+10/18 09:14:19 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+10/18 09:14:19 DAGMAN_RETRY_NODE_FIRST setting: 0
+10/18 09:14:19 DAGMAN_MAX_JOBS_IDLE setting: 0
+10/18 09:14:19 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+10/18 09:14:19 DAGMAN_MUNGE_NODE_NAMES setting: 1
+10/18 09:14:19 DAGMAN_DELETE_OLD_LOGS setting: 1
+10/18 09:14:19 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+10/18 09:14:19 DAGMAN_ABORT_DUPLICATES setting: 0
+10/18 09:14:19 argv[0] == "condor_scheduniv_exec.1343.0"
+10/18 09:14:19 argv[1] == "-Debug"
+10/18 09:14:19 argv[2] == "3"
+10/18 09:14:19 argv[3] == "-Lockfile"
+10/18 09:14:19 argv[4] == "job.dagman.lock"
+10/18 09:14:19 argv[5] == "-Condorlog"
+10/18 09:14:19 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+10/18 09:14:19 argv[7] == "-Dag"
+10/18 09:14:19 argv[8] == "job.dagman"
+10/18 09:14:19 argv[9] == "-Rescue"
+10/18 09:14:19 argv[10] == "job.dagman.rescue"
+10/18 09:14:19 DAG Lockfile will be written to job.dagman.lock
+10/18 09:14:19 DAG Input file is job.dagman
+10/18 09:14:19 Rescue DAG will be written to job.dagman.rescue
+10/18 09:14:19 All DAG node user log files:
+10/18 09:14:19   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+10/18 09:14:19 Parsing job.dagman ...
+10/18 09:14:19 Dag contains 1 total jobs
+10/18 09:14:19 Lock file job.dagman.lock detected, 
+10/18 09:14:19 Bootstrapping...
+10/18 09:14:19 Number of pre-completed nodes: 0
+10/18 09:14:19 Running in RECOVERY mode...
+10/18 09:14:19 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Number of idle job procs: 1
+10/18 09:14:19 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/18 09:14:19 Number of idle job procs: 1
+10/18 09:14:19 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/18 09:14:19 Number of idle job procs: 1
+10/18 09:14:19 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/18 09:14:19 Number of idle job procs: 1
+10/18 09:14:19 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/18 09:14:19 Number of idle job procs: 1
+10/18 09:14:19 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+10/18 09:14:19 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+10/18 09:14:19 Number of idle job procs: 1
+10/18 09:14:19     ------------------------------
+10/18 09:14:19        Condor Recovery Complete
+10/18 09:14:19     ------------------------------
+10/18 09:14:19 Registering condor_event_timer...
+10/18 09:14:20 Of 1 nodes total:
+10/18 09:14:20  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/18 09:14:20   ===     ===      ===     ===     ===        ===      ===
+10/18 09:14:20     0       0        1       0       0          0        0
+11/8 08:40:29 ******************************************************
+11/8 08:40:29 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+11/8 08:40:29 ** /home/condor/condor-6.8.5/bin/condor_dagman
+11/8 08:40:29 ** $CondorVersion: 6.8.5 May 17 2007 $
+11/8 08:40:29 ** $CondorPlatform: I386-LINUX_RHEL3 $
+11/8 08:40:29 ** PID = 6463
+11/8 08:40:29 ** Log last touched 11/8 02:57:35
+11/8 08:40:29 ******************************************************
+11/8 08:40:29 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+11/8 08:40:29 Using local config sources: 
+11/8 08:40:29    /home/condor/condor-6.8.5/local.troll/condor_config.local
+11/8 08:40:29 DaemonCore: Command Socket at <152.19.64.130:53287>
+11/8 08:40:29 DAGMAN_SUBMIT_DELAY setting: 0
+11/8 08:40:29 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+11/8 08:40:29 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+11/8 08:40:29 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+11/8 08:40:29 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+11/8 08:40:29 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+11/8 08:40:29 DAGMAN_RETRY_NODE_FIRST setting: 0
+11/8 08:40:29 DAGMAN_MAX_JOBS_IDLE setting: 0
+11/8 08:40:29 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+11/8 08:40:29 DAGMAN_MUNGE_NODE_NAMES setting: 1
+11/8 08:40:29 DAGMAN_DELETE_OLD_LOGS setting: 1
+11/8 08:40:29 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+11/8 08:40:29 DAGMAN_ABORT_DUPLICATES setting: 0
+11/8 08:40:29 argv[0] == "condor_scheduniv_exec.1343.0"
+11/8 08:40:29 argv[1] == "-Debug"
+11/8 08:40:29 argv[2] == "3"
+11/8 08:40:29 argv[3] == "-Lockfile"
+11/8 08:40:29 argv[4] == "job.dagman.lock"
+11/8 08:40:29 argv[5] == "-Condorlog"
+11/8 08:40:29 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+11/8 08:40:29 argv[7] == "-Dag"
+11/8 08:40:29 argv[8] == "job.dagman"
+11/8 08:40:29 argv[9] == "-Rescue"
+11/8 08:40:29 argv[10] == "job.dagman.rescue"
+11/8 08:40:29 DAG Lockfile will be written to job.dagman.lock
+11/8 08:40:29 DAG Input file is job.dagman
+11/8 08:40:29 Rescue DAG will be written to job.dagman.rescue
+11/8 08:40:29 All DAG node user log files:
+11/8 08:40:29   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+11/8 08:40:29 Parsing job.dagman ...
+11/8 08:40:29 Dag contains 1 total jobs
+11/8 08:40:29 Lock file job.dagman.lock detected, 
+11/8 08:40:29 Bootstrapping...
+11/8 08:40:29 Number of pre-completed nodes: 0
+11/8 08:40:29 Running in RECOVERY mode...
+11/8 08:40:29 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Number of idle job procs: 1
+11/8 08:40:29 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+11/8 08:40:29 Number of idle job procs: 1
+11/8 08:40:29 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+11/8 08:40:29 Number of idle job procs: 1
+11/8 08:40:29 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+11/8 08:40:29 Number of idle job procs: 1
+11/8 08:40:29 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+11/8 08:40:29 Number of idle job procs: 1
+11/8 08:40:29 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+11/8 08:40:29 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+11/8 08:40:29 Number of idle job procs: 1
+11/8 08:40:29     ------------------------------
+11/8 08:40:29        Condor Recovery Complete
+11/8 08:40:29     ------------------------------
+11/8 08:40:29 Registering condor_event_timer...
+11/8 08:40:30 Of 1 nodes total:
+11/8 08:40:30  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+11/8 08:40:30   ===     ===      ===     ===     ===        ===      ===
+11/8 08:40:30     0       0        1       0       0          0        0
+2/14 21:31:26 ******************************************************
+2/14 21:31:26 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+2/14 21:31:26 ** /home/condor/condor-6.8.5/bin/condor_dagman
+2/14 21:31:26 ** $CondorVersion: 6.8.5 May 17 2007 $
+2/14 21:31:26 ** $CondorPlatform: I386-LINUX_RHEL3 $
+2/14 21:31:26 ** PID = 22044
+2/14 21:31:26 ** Log last touched 2/14 21:25:45
+2/14 21:31:26 ******************************************************
+2/14 21:31:26 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+2/14 21:31:26 Using local config sources: 
+2/14 21:31:26    /home/condor/condor-6.8.5/local.troll/condor_config.local
+2/14 21:31:26 DaemonCore: Command Socket at <152.19.64.130:33542>
+2/14 21:31:26 DAGMAN_SUBMIT_DELAY setting: 0
+2/14 21:31:26 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+2/14 21:31:26 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+2/14 21:31:26 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+2/14 21:31:26 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+2/14 21:31:26 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+2/14 21:31:26 DAGMAN_RETRY_NODE_FIRST setting: 0
+2/14 21:31:26 DAGMAN_MAX_JOBS_IDLE setting: 0
+2/14 21:31:26 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+2/14 21:31:26 DAGMAN_MUNGE_NODE_NAMES setting: 1
+2/14 21:31:26 DAGMAN_DELETE_OLD_LOGS setting: 1
+2/14 21:31:26 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+2/14 21:31:26 DAGMAN_ABORT_DUPLICATES setting: 0
+2/14 21:31:26 argv[0] == "condor_scheduniv_exec.1343.0"
+2/14 21:31:26 argv[1] == "-Debug"
+2/14 21:31:26 argv[2] == "3"
+2/14 21:31:26 argv[3] == "-Lockfile"
+2/14 21:31:26 argv[4] == "job.dagman.lock"
+2/14 21:31:26 argv[5] == "-Condorlog"
+2/14 21:31:26 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+2/14 21:31:26 argv[7] == "-Dag"
+2/14 21:31:26 argv[8] == "job.dagman"
+2/14 21:31:26 argv[9] == "-Rescue"
+2/14 21:31:26 argv[10] == "job.dagman.rescue"
+2/14 21:31:26 DAG Lockfile will be written to job.dagman.lock
+2/14 21:31:26 DAG Input file is job.dagman
+2/14 21:31:26 Rescue DAG will be written to job.dagman.rescue
+2/14 21:31:26 All DAG node user log files:
+2/14 21:31:26   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+2/14 21:31:26 Parsing job.dagman ...
+2/14 21:31:26 Dag contains 1 total jobs
+2/14 21:31:26 Lock file job.dagman.lock detected, 
+2/14 21:31:26 Bootstrapping...
+2/14 21:31:26 Number of pre-completed nodes: 0
+2/14 21:31:26 Running in RECOVERY mode...
+2/14 21:31:26 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Number of idle job procs: 1
+2/14 21:31:26 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/14 21:31:26 Number of idle job procs: 1
+2/14 21:31:26 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/14 21:31:26 Number of idle job procs: 1
+2/14 21:31:26 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/14 21:31:26 Number of idle job procs: 1
+2/14 21:31:26 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/14 21:31:26 Number of idle job procs: 1
+2/14 21:31:26 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/14 21:31:26 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/14 21:31:26 Number of idle job procs: 1
+2/14 21:31:26     ------------------------------
+2/14 21:31:26        Condor Recovery Complete
+2/14 21:31:26     ------------------------------
+2/14 21:31:26 Registering condor_event_timer...
+2/14 21:31:27 Of 1 nodes total:
+2/14 21:31:27  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+2/14 21:31:27   ===     ===      ===     ===     ===        ===      ===
+2/14 21:31:27     0       0        1       0       0          0        0
+3/10 16:43:25 ******************************************************
+3/10 16:43:25 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+3/10 16:43:25 ** /home/condor/condor-6.8.5/bin/condor_dagman
+3/10 16:43:25 ** $CondorVersion: 6.8.5 May 17 2007 $
+3/10 16:43:25 ** $CondorPlatform: I386-LINUX_RHEL3 $
+3/10 16:43:25 ** PID = 19988
+3/10 16:43:25 ** Log last touched 3/10 16:37:43
+3/10 16:43:25 ******************************************************
+3/10 16:43:25 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+3/10 16:43:25 Using local config sources: 
+3/10 16:43:25    /home/condor/condor-6.8.5/local.troll/condor_config.local
+3/10 16:43:25 DaemonCore: Command Socket at <152.19.64.130:33264>
+3/10 16:43:25 DAGMAN_SUBMIT_DELAY setting: 0
+3/10 16:43:25 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+3/10 16:43:25 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+3/10 16:43:25 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+3/10 16:43:25 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+3/10 16:43:25 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+3/10 16:43:25 DAGMAN_RETRY_NODE_FIRST setting: 0
+3/10 16:43:25 DAGMAN_MAX_JOBS_IDLE setting: 0
+3/10 16:43:25 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+3/10 16:43:25 DAGMAN_MUNGE_NODE_NAMES setting: 1
+3/10 16:43:25 DAGMAN_DELETE_OLD_LOGS setting: 1
+3/10 16:43:25 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+3/10 16:43:25 DAGMAN_ABORT_DUPLICATES setting: 0
+3/10 16:43:25 argv[0] == "condor_scheduniv_exec.1343.0"
+3/10 16:43:25 argv[1] == "-Debug"
+3/10 16:43:25 argv[2] == "3"
+3/10 16:43:25 argv[3] == "-Lockfile"
+3/10 16:43:25 argv[4] == "job.dagman.lock"
+3/10 16:43:25 argv[5] == "-Condorlog"
+3/10 16:43:25 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+3/10 16:43:25 argv[7] == "-Dag"
+3/10 16:43:25 argv[8] == "job.dagman"
+3/10 16:43:25 argv[9] == "-Rescue"
+3/10 16:43:25 argv[10] == "job.dagman.rescue"
+3/10 16:43:25 DAG Lockfile will be written to job.dagman.lock
+3/10 16:43:25 DAG Input file is job.dagman
+3/10 16:43:25 Rescue DAG will be written to job.dagman.rescue
+3/10 16:43:25 All DAG node user log files:
+3/10 16:43:25   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+3/10 16:43:25 Parsing job.dagman ...
+3/10 16:43:25 Dag contains 1 total jobs
+3/10 16:43:25 Lock file job.dagman.lock detected, 
+3/10 16:43:25 Bootstrapping...
+3/10 16:43:25 Number of pre-completed nodes: 0
+3/10 16:43:25 Running in RECOVERY mode...
+3/10 16:43:25 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Number of idle job procs: 1
+3/10 16:43:25 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 16:43:25 Number of idle job procs: 1
+3/10 16:43:25 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 16:43:25 Number of idle job procs: 1
+3/10 16:43:25 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 16:43:25 Number of idle job procs: 1
+3/10 16:43:25 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 16:43:25 Number of idle job procs: 1
+3/10 16:43:25 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 16:43:25 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 16:43:25 Number of idle job procs: 1
+3/10 16:43:25     ------------------------------
+3/10 16:43:25        Condor Recovery Complete
+3/10 16:43:25     ------------------------------
+3/10 16:43:25 Registering condor_event_timer...
+3/10 16:43:26 Of 1 nodes total:
+3/10 16:43:26  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+3/10 16:43:26   ===     ===      ===     ===     ===        ===      ===
+3/10 16:43:26     0       0        1       0       0          0        0
+3/10 17:00:54 ******************************************************
+3/10 17:00:54 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+3/10 17:00:54 ** /home/condor/condor-6.8.5/bin/condor_dagman
+3/10 17:00:54 ** $CondorVersion: 6.8.5 May 17 2007 $
+3/10 17:00:54 ** $CondorPlatform: I386-LINUX_RHEL3 $
+3/10 17:00:54 ** PID = 25239
+3/10 17:00:54 ** Log last touched 3/10 16:55:25
+3/10 17:00:54 ******************************************************
+3/10 17:00:54 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+3/10 17:00:54 Using local config sources: 
+3/10 17:00:54    /home/condor/condor-6.8.5/local.troll/condor_config.local
+3/10 17:00:54 DaemonCore: Command Socket at <152.19.64.130:53413>
+3/10 17:00:54 DAGMAN_SUBMIT_DELAY setting: 0
+3/10 17:00:54 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+3/10 17:00:54 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+3/10 17:00:54 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+3/10 17:00:54 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+3/10 17:00:54 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+3/10 17:00:54 DAGMAN_RETRY_NODE_FIRST setting: 0
+3/10 17:00:54 DAGMAN_MAX_JOBS_IDLE setting: 0
+3/10 17:00:54 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+3/10 17:00:54 DAGMAN_MUNGE_NODE_NAMES setting: 1
+3/10 17:00:54 DAGMAN_DELETE_OLD_LOGS setting: 1
+3/10 17:00:54 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+3/10 17:00:54 DAGMAN_ABORT_DUPLICATES setting: 0
+3/10 17:00:54 argv[0] == "condor_scheduniv_exec.1343.0"
+3/10 17:00:54 argv[1] == "-Debug"
+3/10 17:00:54 argv[2] == "3"
+3/10 17:00:54 argv[3] == "-Lockfile"
+3/10 17:00:54 argv[4] == "job.dagman.lock"
+3/10 17:00:54 argv[5] == "-Condorlog"
+3/10 17:00:54 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+3/10 17:00:54 argv[7] == "-Dag"
+3/10 17:00:54 argv[8] == "job.dagman"
+3/10 17:00:54 argv[9] == "-Rescue"
+3/10 17:00:54 argv[10] == "job.dagman.rescue"
+3/10 17:00:54 DAG Lockfile will be written to job.dagman.lock
+3/10 17:00:54 DAG Input file is job.dagman
+3/10 17:00:54 Rescue DAG will be written to job.dagman.rescue
+3/10 17:00:54 All DAG node user log files:
+3/10 17:00:54   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+3/10 17:00:54 Parsing job.dagman ...
+3/10 17:00:54 Dag contains 1 total jobs
+3/10 17:00:54 Lock file job.dagman.lock detected, 
+3/10 17:00:54 Bootstrapping...
+3/10 17:00:54 Number of pre-completed nodes: 0
+3/10 17:00:54 Running in RECOVERY mode...
+3/10 17:00:54 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Number of idle job procs: 1
+3/10 17:00:54 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 17:00:54 Number of idle job procs: 1
+3/10 17:00:54 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 17:00:54 Number of idle job procs: 1
+3/10 17:00:54 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 17:00:54 Number of idle job procs: 1
+3/10 17:00:54 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 17:00:54 Number of idle job procs: 1
+3/10 17:00:54 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 17:00:54 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 17:00:54 Number of idle job procs: 1
+3/10 17:00:54     ------------------------------
+3/10 17:00:54        Condor Recovery Complete
+3/10 17:00:54     ------------------------------
+3/10 17:00:54 Registering condor_event_timer...
+3/10 17:00:55 Of 1 nodes total:
+3/10 17:00:55  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+3/10 17:00:55   ===     ===      ===     ===     ===        ===      ===
+3/10 17:00:55     0       0        1       0       0          0        0
+3/10 22:27:20 ******************************************************
+3/10 22:27:20 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+3/10 22:27:20 ** /home/condor/condor-6.8.5/bin/condor_dagman
+3/10 22:27:20 ** $CondorVersion: 6.8.5 May 17 2007 $
+3/10 22:27:20 ** $CondorPlatform: I386-LINUX_RHEL3 $
+3/10 22:27:20 ** PID = 435
+3/10 22:27:20 ** Log last touched 3/10 22:21:54
+3/10 22:27:20 ******************************************************
+3/10 22:27:20 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+3/10 22:27:20 Using local config sources: 
+3/10 22:27:20    /home/condor/condor-6.8.5/local.troll/condor_config.local
+3/10 22:27:20 DaemonCore: Command Socket at <152.19.64.130:49072>
+3/10 22:27:20 DAGMAN_SUBMIT_DELAY setting: 0
+3/10 22:27:20 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+3/10 22:27:20 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+3/10 22:27:20 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+3/10 22:27:20 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+3/10 22:27:20 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+3/10 22:27:20 DAGMAN_RETRY_NODE_FIRST setting: 0
+3/10 22:27:20 DAGMAN_MAX_JOBS_IDLE setting: 0
+3/10 22:27:20 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+3/10 22:27:20 DAGMAN_MUNGE_NODE_NAMES setting: 1
+3/10 22:27:20 DAGMAN_DELETE_OLD_LOGS setting: 1
+3/10 22:27:20 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+3/10 22:27:20 DAGMAN_ABORT_DUPLICATES setting: 0
+3/10 22:27:20 argv[0] == "condor_scheduniv_exec.1343.0"
+3/10 22:27:20 argv[1] == "-Debug"
+3/10 22:27:20 argv[2] == "3"
+3/10 22:27:20 argv[3] == "-Lockfile"
+3/10 22:27:20 argv[4] == "job.dagman.lock"
+3/10 22:27:20 argv[5] == "-Condorlog"
+3/10 22:27:20 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+3/10 22:27:20 argv[7] == "-Dag"
+3/10 22:27:20 argv[8] == "job.dagman"
+3/10 22:27:20 argv[9] == "-Rescue"
+3/10 22:27:20 argv[10] == "job.dagman.rescue"
+3/10 22:27:20 DAG Lockfile will be written to job.dagman.lock
+3/10 22:27:20 DAG Input file is job.dagman
+3/10 22:27:20 Rescue DAG will be written to job.dagman.rescue
+3/10 22:27:20 All DAG node user log files:
+3/10 22:27:20   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+3/10 22:27:20 Parsing job.dagman ...
+3/10 22:27:20 Dag contains 1 total jobs
+3/10 22:27:20 Lock file job.dagman.lock detected, 
+3/10 22:27:20 Bootstrapping...
+3/10 22:27:20 Number of pre-completed nodes: 0
+3/10 22:27:20 Running in RECOVERY mode...
+3/10 22:27:20 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Number of idle job procs: 1
+3/10 22:27:20 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 22:27:20 Number of idle job procs: 1
+3/10 22:27:20 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 22:27:20 Number of idle job procs: 1
+3/10 22:27:20 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 22:27:20 Number of idle job procs: 1
+3/10 22:27:20 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 22:27:20 Number of idle job procs: 1
+3/10 22:27:20 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+3/10 22:27:20 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+3/10 22:27:20 Number of idle job procs: 1
+3/10 22:27:20     ------------------------------
+3/10 22:27:20        Condor Recovery Complete
+3/10 22:27:20     ------------------------------
+3/10 22:27:20 Registering condor_event_timer...
+3/10 22:27:22 Of 1 nodes total:
+3/10 22:27:22  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+3/10 22:27:22   ===     ===      ===     ===     ===        ===      ===
+3/10 22:27:22     0       0        1       0       0          0        0
+2/17 11:07:21 ******************************************************
+2/17 11:07:21 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+2/17 11:07:21 ** /home/condor/condor-6.8.5/bin/condor_dagman
+2/17 11:07:21 ** $CondorVersion: 6.8.5 May 17 2007 $
+2/17 11:07:21 ** $CondorPlatform: I386-LINUX_RHEL3 $
+2/17 11:07:21 ** PID = 6428
+2/17 11:07:21 ** Log last touched 3/10 23:45:21
+2/17 11:07:21 ******************************************************
+2/17 11:07:21 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+2/17 11:07:21 Using local config sources: 
+2/17 11:07:21    /home/condor/condor-6.8.5/local.troll/condor_config.local
+2/17 11:07:22 DaemonCore: Command Socket at <152.19.64.130:59028>
+2/17 11:07:22 DAGMAN_SUBMIT_DELAY setting: 0
+2/17 11:07:22 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+2/17 11:07:22 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+2/17 11:07:22 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+2/17 11:07:22 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+2/17 11:07:22 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+2/17 11:07:22 DAGMAN_RETRY_NODE_FIRST setting: 0
+2/17 11:07:22 DAGMAN_MAX_JOBS_IDLE setting: 0
+2/17 11:07:22 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+2/17 11:07:22 DAGMAN_MUNGE_NODE_NAMES setting: 1
+2/17 11:07:22 DAGMAN_DELETE_OLD_LOGS setting: 1
+2/17 11:07:22 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+2/17 11:07:22 DAGMAN_ABORT_DUPLICATES setting: 0
+2/17 11:07:22 argv[0] == "condor_scheduniv_exec.1343.0"
+2/17 11:07:22 argv[1] == "-Debug"
+2/17 11:07:22 argv[2] == "3"
+2/17 11:07:22 argv[3] == "-Lockfile"
+2/17 11:07:22 argv[4] == "job.dagman.lock"
+2/17 11:07:22 argv[5] == "-Condorlog"
+2/17 11:07:22 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+2/17 11:07:22 argv[7] == "-Dag"
+2/17 11:07:22 argv[8] == "job.dagman"
+2/17 11:07:22 argv[9] == "-Rescue"
+2/17 11:07:22 argv[10] == "job.dagman.rescue"
+2/17 11:07:22 DAG Lockfile will be written to job.dagman.lock
+2/17 11:07:22 DAG Input file is job.dagman
+2/17 11:07:22 Rescue DAG will be written to job.dagman.rescue
+2/17 11:07:22 All DAG node user log files:
+2/17 11:07:22   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+2/17 11:07:22 Parsing job.dagman ...
+2/17 11:07:22 Dag contains 1 total jobs
+2/17 11:07:22 Lock file job.dagman.lock detected, 
+2/17 11:07:22 Bootstrapping...
+2/17 11:07:22 Number of pre-completed nodes: 0
+2/17 11:07:22 Running in RECOVERY mode...
+2/17 11:07:22 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Number of idle job procs: 1
+2/17 11:07:22 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/17 11:07:22 Number of idle job procs: 1
+2/17 11:07:22 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/17 11:07:22 Number of idle job procs: 1
+2/17 11:07:22 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/17 11:07:22 Number of idle job procs: 1
+2/17 11:07:22 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/17 11:07:22 Number of idle job procs: 1
+2/17 11:07:22 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+2/17 11:07:22 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+2/17 11:07:22 Number of idle job procs: 1
+2/17 11:07:22     ------------------------------
+2/17 11:07:22        Condor Recovery Complete
+2/17 11:07:22     ------------------------------
+2/17 11:07:22 Registering condor_event_timer...
+2/17 11:07:23 Of 1 nodes total:
+2/17 11:07:23  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+2/17 11:07:23   ===     ===      ===     ===     ===        ===      ===
+2/17 11:07:23     0       0        1       0       0          0        0
+4/3 18:40:04 ******************************************************
+4/3 18:40:05 ** condor_scheduniv_exec.1343.0 (CONDOR_DAGMAN) STARTING UP
+4/3 18:40:05 ** /home/condor/condor-6.8.5/bin/condor_dagman
+4/3 18:40:05 ** $CondorVersion: 6.8.5 May 17 2007 $
+4/3 18:40:05 ** $CondorPlatform: I386-LINUX_RHEL3 $
+4/3 18:40:05 ** PID = 6431
+4/3 18:40:05 ** Log last touched 4/3 18:10:39
+4/3 18:40:05 ******************************************************
+4/3 18:40:05 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+4/3 18:40:05 Using local config sources: 
+4/3 18:40:05    /home/condor/condor-6.8.5/local.troll/condor_config.local
+4/3 18:40:05 DaemonCore: Command Socket at <152.19.64.130:48107>
+4/3 18:40:05 DAGMAN_SUBMIT_DELAY setting: 0
+4/3 18:40:05 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+4/3 18:40:05 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+4/3 18:40:05 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+4/3 18:40:05 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+4/3 18:40:05 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+4/3 18:40:05 DAGMAN_RETRY_NODE_FIRST setting: 0
+4/3 18:40:05 DAGMAN_MAX_JOBS_IDLE setting: 0
+4/3 18:40:05 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+4/3 18:40:05 DAGMAN_MUNGE_NODE_NAMES setting: 1
+4/3 18:40:05 DAGMAN_DELETE_OLD_LOGS setting: 1
+4/3 18:40:05 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+4/3 18:40:05 DAGMAN_ABORT_DUPLICATES setting: 0
+4/3 18:40:05 argv[0] == "condor_scheduniv_exec.1343.0"
+4/3 18:40:05 argv[1] == "-Debug"
+4/3 18:40:05 argv[2] == "3"
+4/3 18:40:05 argv[3] == "-Lockfile"
+4/3 18:40:05 argv[4] == "job.dagman.lock"
+4/3 18:40:05 argv[5] == "-Condorlog"
+4/3 18:40:05 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log"
+4/3 18:40:05 argv[7] == "-Dag"
+4/3 18:40:05 argv[8] == "job.dagman"
+4/3 18:40:05 argv[9] == "-Rescue"
+4/3 18:40:05 argv[10] == "job.dagman.rescue"
+4/3 18:40:05 DAG Lockfile will be written to job.dagman.lock
+4/3 18:40:05 DAG Input file is job.dagman
+4/3 18:40:05 Rescue DAG will be written to job.dagman.rescue
+4/3 18:40:05 All DAG node user log files:
+4/3 18:40:05   /var/www/localhost/htdocs/ifold/iFoldDaemon2/job.log (Condor)
+4/3 18:40:05 Parsing job.dagman ...
+4/3 18:40:05 Dag contains 1 total jobs
+4/3 18:40:05 Lock file job.dagman.lock detected, 
+4/3 18:40:05 Bootstrapping...
+4/3 18:40:05 Number of pre-completed nodes: 0
+4/3 18:40:05 Running in RECOVERY mode...
+4/3 18:40:05 Event: ULOG_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Number of idle job procs: 1
+4/3 18:40:05 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/3 18:40:05 Number of idle job procs: 1
+4/3 18:40:05 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/3 18:40:05 Number of idle job procs: 1
+4/3 18:40:05 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/3 18:40:05 Number of idle job procs: 1
+4/3 18:40:05 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/3 18:40:05 Number of idle job procs: 1
+4/3 18:40:05 Event: ULOG_JOB_RELEASED for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_GLOBUS_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_GRID_SUBMIT for Condor Node job_1 (1344.0)
+4/3 18:40:05 Event: ULOG_JOB_HELD for Condor Node job_1 (1344.0)
+4/3 18:40:05 Number of idle job procs: 1
+4/3 18:40:05     ------------------------------
+4/3 18:40:05        Condor Recovery Complete
+4/3 18:40:05     ------------------------------
+4/3 18:40:05 Registering condor_event_timer...
+4/3 18:40:06 Of 1 nodes total:
+4/3 18:40:06  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+4/3 18:40:06   ===     ===      ===     ===     ===        ===      ===
+4/3 18:40:06     0       0        1       0       0          0        0

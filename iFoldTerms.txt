@@ -1,0 +1,35 @@
+The material contained within the Dokholyan Lab's iFold Server 
+(http://ifold.dokhlab.org) is copyright unless stated otherwise.
+
+This website is restricted to not-for-profit uses only.
+
+Much of the material provided on the online services may be 
+reproduced free of charge for educational non-commercial 
+purposes provided that the source is acknowledged and that 
+it is reproduced accurately and not used in a misleading 
+context. This permission does not extend to any material on 
+the websites that is identified as being the copyright of a 
+third party. You must obtain authorization to reproduce such 
+material from the copyright holders concerned.
+
+Should you wish to re-publish any of the Dokholyan Lab's 
+copyrighted material from the iFold server, please contact us 
+to obtain permission.
+
+Dokholyan Lab's webserver seeks to ensure that the information 
+published on the iFold webserver is up-to-date and accurate. 
+However, the information on the websites does not constitute 
+legal or professional advice and the Dokholyan Lab and the iFold 
+developers cannot accept any liability for actions or consequences 
+arising from its use. Dokholyan Lab cannot be held responsible for 
+the contents of any other website accessed through a link on our 
+site. Dokholyan Lab's iFold webserver provides these services as a 
+convenience and inclusion of a service does not imply endorsement 
+by Dokholyan Lab's iFold server of an external site.
+
+Dokholyan Lab's iFold webserver recognizes that your privacy is 
+important to you and we are committed to respecting your online 
+privacy. We will apply appropriate protection and management of 
+any personally identifiable information you share with us. We 
+will not pass on your details to any third party.
+

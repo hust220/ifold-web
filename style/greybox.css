@@ -1,0 +1,53 @@
+#GB_overlay {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#GB_window {
+  top: 22px;
+  left: 0;
+  position: absolute;
+  background-color: #FFFBEF;
+  border: 2px solid #528BA6;
+  border-top: 0;
+  overflow: visible;
+  z-index: 150;
+}
+
+#GB_frame {
+  border: 0;
+  overflow: auto;
+}
+
+#GB_header {
+  margin: 0;
+  top: 0;
+  border-left: 2px solid #528BA6;
+  border-right: 2px solid #528BA6;
+  height: 22px;
+  position: absolute;
+  color: #FFFBEF;
+  background-color: #528BA6;
+  z-index: 151;
+}
+
+#GB_caption {
+  font-family: helvetica, verdana, sans-serif;
+  font-size: 12px;
+  color: #FFFBEF;
+  font-weight: bold;
+  padding: 4px 0 0 5px;
+  margin: 0;
+  text-align: left;
+}
+
+#GB_close {
+  display: none;
+  padding: 2px 5px 0 0;
+  float: right;
+  cursor: pointer;
+}
+

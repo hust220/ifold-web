@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="99"
+   name=""
+   committed-date="2006-04-29T21:39:21.836125Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/unittests"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="99"
+   name="helptest.phps"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-29T21:39:21.836125Z"
+   checksum="56b203d04e63aa7255d85cc422a6f82c"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="70"
+   name="adminEmailXPath.php"
+   text-time="2006-04-08T00:20:21.000000Z"
+   committed-date="2006-04-08T00:25:35.698125Z"
+   checksum="cbb94a059efa523dbaf6b046581c55f4"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-08T00:20:21.000000Z"/>
+<entry
+   committed-rev="88"
+   name="liveGrid.php"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-18T12:21:57.173750Z"
+   checksum="0bd087e4935756f9f2559cfeabc7c56a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+<entry
+   committed-rev="99"
+   name="helptest.php"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-29T21:39:21.836125Z"
+   checksum="56b203d04e63aa7255d85cc422a6f82c"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+</wc-entries>

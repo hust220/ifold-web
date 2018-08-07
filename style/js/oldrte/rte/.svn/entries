@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="87"
+   name=""
+   committed-date="2006-04-17T14:57:45.330000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/style/js/rte"
+   last-author="lopp"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="87"
+   name="multi.htm"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-17T14:57:45.330000Z"
+   checksum="91c9458a66a24be9ce589011f3ba3bb4"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+<entry
+   committed-rev="87"
+   name="insert_table.htm"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-17T14:57:45.330000Z"
+   checksum="2a490ebf0d3ceb33764faddc4886dc2f"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   committed-rev="87"
+   name="palette.htm"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-17T14:57:45.330000Z"
+   checksum="9619a015d5346a3dc2d762e4346aca65"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+<entry
+   committed-rev="87"
+   name="richtext.js"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-17T14:57:45.330000Z"
+   checksum="b0b85a2951f5084f487d4be72629dd76"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+<entry
+   committed-rev="87"
+   name="insert_link.htm"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-17T14:57:45.330000Z"
+   checksum="71108aeb28917c3cf91531bee4a71a15"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+<entry
+   committed-rev="87"
+   name="blank.htm"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-17T14:57:45.330000Z"
+   checksum="7171a4fa41b0651d696add5be28a0b17"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+<entry
+   committed-rev="87"
+   name="html2xhtml.js"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-17T14:57:45.330000Z"
+   checksum="b941048ba9178d18e8f5707fb664d526"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+</wc-entries>

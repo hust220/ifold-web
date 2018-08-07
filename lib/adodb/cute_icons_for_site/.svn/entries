@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2006-02-14T23:37:33.687500Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib/adodb/cute_icons_for_site"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="9"
+   name="adodb2.gif"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="f5405fa66aa4da4f6507c9356581b539"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+<entry
+   committed-rev="9"
+   name="adodb.gif"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="943052b5ea2b4188ca4453f9b62cebae"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:39.000000Z"/>
+</wc-entries>

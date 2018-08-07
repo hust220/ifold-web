@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="66"
+   name=""
+   committed-date="2006-04-06T05:27:25.995000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/backend/org/ifold/test"
+   last-author="dan"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="66"
+   name="TestSocketThread.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="c7fd0e30eb36fa4aaa07a99b96d3e5da"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="21"
+   name="TestListener.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-02-22T18:35:36.279875Z"
+   checksum="a5f70d547d04adb7864469be6b591cbc"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="66"
+   name="TestManager.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="101f5c8c385c3148d1445bf821b36302"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+</wc-entries>

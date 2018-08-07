@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2006-02-14T23:37:33.687500Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib/adodb/datadict"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="9"
+   name="datadict-firebird.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="f2ce98c3842f11437ab0f25b7fc993a2"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-postgres.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="c4d856ea94050558bb602cf757510f5d"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-sybase.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="83eb83dc48a3a7ac372d21be0f5fda74"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-db2.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="92257d77350a6f3b3e65567ace8c05ea"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-sapdb.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="7978a0e74aaaa6e080299bc112d44515"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-informix.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="4f434da4a214f8fd8ba6ed2610cb470d"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-generic.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="4d1c34810427ad81a62b85aeafff1276"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-mssql.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="f7dcdd2865b3329ff2ae580210064385"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-access.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="d3a86ef8a50f3e6bd36a9822f5327ef2"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-oci8.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="b07cc7844a12d8015be2feb9055d111a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-ibase.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="d9b20fad358fd9068145615ed1168acd"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="datadict-mysql.inc.php"
+   text-time="2006-04-06T23:27:39.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="9d4574bb597d5a7bab7fb88bdb29ac72"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+</wc-entries>

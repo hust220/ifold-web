@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="102"
+   name=""
+   committed-date="2006-04-30T04:42:38.586125Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/backend"
+   last-author="dan"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="23"
+   name="manager.properties"
+   text-time="2006-04-06T23:27:36.000000Z"
+   committed-date="2006-02-24T02:08:35.311125Z"
+   checksum="142ee1d2c6937743488186d122657468"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   name="org"
+   kind="dir"/>
+<entry
+   committed-rev="22"
+   name="org.rar"
+   text-time="2006-04-06T23:27:36.000000Z"
+   committed-date="2006-02-22T22:54:52.654875Z"
+   checksum="7a561b6388f2abf963314509194892be"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="20"
+   name="readme.txt"
+   text-time="2006-04-06T23:27:36.000000Z"
+   committed-date="2006-02-22T17:09:17.764250Z"
+   checksum="3828c82d7e9887d135c0756c52785c03"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="102"
+   name="iFoldBackEndSpec.txt"
+   text-time="2006-04-30T21:21:49.000000Z"
+   committed-date="2006-04-30T04:42:38.586125Z"
+   checksum="68611761ec1b9307b85143d399776947"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-30T21:21:49.000000Z"/>
+</wc-entries>

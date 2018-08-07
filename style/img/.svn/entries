@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="128"
+   name=""
+   committed-date="2006-05-10T07:17:54.130000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/style/img"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="61"
+   name="indicator_white.gif"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-31T07:46:34.817750Z"
+   checksum="86b1ac6d1c485d54efa3a53643e91ceb"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="50"
+   name="loading.gif"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-19T01:14:49.920500Z"
+   checksum="b0cd5a5dc070c705ebf8814a909802c3"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="88"
+   name="sort_asc.gif"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-18T12:21:57.173750Z"
+   checksum="5a241ba91ef4e13060f90fbf224bceba"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+<entry
+   committed-rev="9"
+   name="nav_back.jpg"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="745f46d9a2589a7b123ff9fb7ec0a875"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="49"
+   name="dokhlab.jpg"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-13T04:34:44.951750Z"
+   checksum="bf2bd270e29f9f5cfa2daa175f2d225a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="109"
+   name="nav_profile.jpg"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="f5e128d49ffcc0896268009df953470f"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="109"
+   name="head.psd"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="1a340f66ef0b51a423036677c94f1e83"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="128"
+   name="submit_rna.png"
+   text-time="2006-05-10T07:11:43.000000Z"
+   committed-date="2006-05-10T07:17:54.130000Z"
+   checksum="9166b1801b82ea41a8ff314366c639f9"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-10T07:11:42.000000Z"/>
+<entry
+   committed-rev="37"
+   name="a_user-iapproved.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-06T23:04:39.699875Z"
+   checksum="59f512a4729ca2f08939650d516d9cae"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="88"
+   name="sort_desc.gif"
+   text-time="2006-04-19T01:33:29.000000Z"
+   committed-date="2006-04-18T12:21:57.173750Z"
+   checksum="7bf9470729c0aab0bdc7baa5ae25a5e8"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-19T01:33:29.000000Z"/>
+<entry
+   committed-rev="99"
+   name="messages.png"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-29T21:39:21.836125Z"
+   checksum="7bc15a4d0022004d52114fcba2206761"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="103"
+   name="blank.gif"
+   text-time="2006-04-30T21:21:49.000000Z"
+   committed-date="2006-04-30T08:42:05.867375Z"
+   checksum="56398e76be6355ad5999b262208a17c9"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-30T21:21:49.000000Z"/>
+<entry
+   committed-rev="67"
+   name="a_daemon-iwaiting.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="1e97f24a97db7004bd77b7ea8b15bfd7"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="37"
+   name="a_user-idenied.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-06T23:04:39.699875Z"
+   checksum="a82b68abf2cd3ce00ca6fc0d3b550311"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="103"
+   name="overlay.png"
+   text-time="2006-04-30T21:21:49.000000Z"
+   committed-date="2006-04-30T08:42:05.867375Z"
+   checksum="ea7bda2e1135708e624d106890f86379"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-30T21:21:49.000000Z"/>
+<entry
+   committed-rev="67"
+   name="a_daemon-ipause.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="6f57357695261cbfc184f8ce754cbc24"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="109"
+   name="nav_home.jpg"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="8ba17eba5c795180c6239e5dd3eeb594"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="67"
+   name="a_daemon-ibusy.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="c1012eb43a0b9fe9e424363f8edd725e"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="109"
+   name="nav_activity.jpg"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="6958462725adadca4f842d7915003a9e"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="65"
+   name="indicator_medium.gif"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-05T21:44:43.979375Z"
+   checksum="50c5e3e79b276c92df6cc52caeb464f0"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="67"
+   name="indicator.gif"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="03ce3dcc84af110e9da8699a841e5200"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="109"
+   name="head.jpg"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="f0111b653b1d2bab42ceb13663f84719"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="9"
+   name="nav_back_hover.jpg"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="200f002e65aa5403d73e43437042e0ce"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="109"
+   name="Thumbs.db"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="6553be78019aded3989d311d2d349287"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="109"
+   name="nav_submit.jpg"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="5d3bd1d43d5c1f2644d7b0ce39d7acd0"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="128"
+   name="submit_protein.png"
+   text-time="2006-05-10T07:11:43.000000Z"
+   committed-date="2006-05-10T07:17:54.130000Z"
+   checksum="477e844adf21fbcd088419f5e1001750"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-10T07:11:42.000000Z"/>
+<entry
+   committed-rev="65"
+   name="overlay_params.gif"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-05T21:44:43.979375Z"
+   checksum="1f2f0d39905a910680396576c303c13d"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="37"
+   name="a_user-i.psd"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-06T23:04:39.699875Z"
+   checksum="aebda4b005e02c40448ab93aa2f3a37e"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="109"
+   name="nav_manageifold.jpg"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="85d224af22e8bf3ce084bcf517247415"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="67"
+   name="edit-find-small.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="c177ed3ed6c0ab751fd9a2663ec449b7"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="67"
+   name="a_daemon-iunknown.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="7bc8a09fa7be30e61e6a8b5cb0e35c30"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="67"
+   name="a_daemon-iactivate.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="dcd919acd1f99b901939164ad6381ff3"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="109"
+   name="nav_manageusers.jpg"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="a1153e27072ea7581f51dc821f6e8e05"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="37"
+   name="a_user-iemail.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-06T23:04:39.699875Z"
+   checksum="c4835a5b54bf8f065e8f8aa87c4fccae"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="ataglance_head_back.jpg"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="59caccac6865b1933e07a8accb85138f"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="head_back.jpg"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="430951dd8d7d35e285bac94da9f5e9c8"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="99"
+   name="task-reset.png"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-29T21:39:21.836125Z"
+   checksum="5d9adebce36755e6ec6420c44f915ea1"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="109"
+   name="navbutton.psd"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="01b8f58649eeab0c0039bfcd048b0759"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="109"
+   name="nav_queue.jpg"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="4e5c5300f66c7bdc59e34a1fd9df1d34"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="128"
+   name="submit_dna.png"
+   text-time="2006-05-10T07:11:43.000000Z"
+   committed-date="2006-05-10T07:17:54.130000Z"
+   checksum="b796ef7bc269feab4bc422d2629c87b7"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-10T07:11:43.000000Z"/>
+<entry
+   committed-rev="103"
+   name="close.gif"
+   text-time="2006-04-30T21:21:49.000000Z"
+   committed-date="2006-04-30T08:42:05.867375Z"
+   checksum="2418c6a93df60c8f453d76977d88a826"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-30T21:21:49.000000Z"/>
+<entry
+   committed-rev="67"
+   name="a_user-idelete.png"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="3a8a7a675434e39d35964d34ef1e7cdf"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="37"
+   name="button_back.jpg"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-06T23:04:39.699875Z"
+   checksum="c0e66d0fb74f5a62108714d8b22f55de"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="37"
+   name="a_user-icircle.psd"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-06T23:04:39.699875Z"
+   checksum="0d9107664b1ca07323be8eebad0f759e"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="109"
+   name="nav_help.jpg"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="fd22ad2c3c91a51968c0ad0ff70523c9"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2006-02-14T23:37:33.687500Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib/adodb/tests"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="9"
+   name="test-php5.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="e416df2c6a1459402a1a0b0cd29016ea"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test-datadict.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="c426e20a24bfd7952cff488ab366a906"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="benchmark.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="b88fe95240480a466455f598c91d369a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="xmlschema.xml"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="19cadc10ec067c103a9601f5862eddaf"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test-xmlschema.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="1ff13da31bc5cb90396ec05cb83a04cd"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="time.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="b15819b22c81f4d90451c648e0bbbfd5"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="testdatabases.inc.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="9df45130e56492cadb1ff36997527bf9"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="testmssql.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="ae14836a033020669a4198f175e269f3"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="testoci8cursor.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="9223c6b663110da8b01d461a42fd0b1e"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test2.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="384bf94f1e4a9ab57dd0808030ba021c"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test3.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="d2bd5c064d498896c2bcb0a19cb4d951"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="testoci8.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="6e7c477e44c236a8045a6d06878d9cdb"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test4.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="449d789b5fb6af92418633e5a71fe9e5"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="testcache.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="cdca19237e4ececb65b1ff9d273f18fe"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test5.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="977227c273b416211cff105760791b6b"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="testpaging.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="75d5af61a985adfad6a9789c468b8276"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="testsessions.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="fe5869372e389e3e68ad1f9f5f06b3a4"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test-perf.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="b95e98b55a0c97573682d39616eafc6d"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="cf~testsessions.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="06ba1cebad4c440ef9163b0253c13a3b"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="client.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="1c7f90014c471b72cc1963b90a0031fd"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="a7e317389fe996abb974dcf0f8870660"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test_rs_array.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="1ccf2778737a7c41eab84989e464a642"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="test-pgblob.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="62b6b5f397babd852597f9d9ec5749fe"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="pdo.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="124c896e4ff167e160a1d10954ad5290"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="tmssql.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="3d7a43b2eb78e4442b082da5a04e42b7"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="rr.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="7ed42320b2607ad3592c24593eee2f5a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="testgenid.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="15760f299c223f7345703c6b14e38cdc"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="testpear.php"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="88d561ab10aeb5e7d1ceb44fc3d729d1"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="xmlschema-mssql.xml"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="5c70545f238f4b11e782f3c143f35eaf"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+</wc-entries>

@@ -1,0 +1,80 @@
+000 (1344.000.000) 04/09 14:35:27 Job submitted from host: <152.19.64.130:37897>
+    DAG Node: job_1
+...
+017 (1344.000.000) 04/09 14:36:23 Job submitted to Globus
+    RM-Contact: red.unl.edu/jobmanager-condor
+    JM-Contact: https://red.unl.edu:35491/16365/1270838181/
+    Can-Restart-JM: 1
+...
+027 (1344.000.000) 04/09 14:36:23 Job submitted to grid resource
+    GridResource: gt2 red.unl.edu/jobmanager-condor
+    GridJobId: gt2 red.unl.edu/jobmanager-condor https://red.unl.edu:35491/16365/1270838181/
+...
+012 (1344.000.000) 04/09 14:46:11 Job was held.
+	The job attribute PeriodicHold expression '(((JobStatus == 1) && ((CurrentTime - EnteredCurrentStatus) > (10 * 60))) || ((JobStatus == 2) && ((CurrentTime - EnteredCurrentStatus) > (5 * 60 * 60))))' evaluated to TRUE
+	Code 0 Subcode 0
+...
+013 (1344.000.000) 04/09 14:46:27 Job was released.
+	The job attribute PeriodicRelease expression '(NumGlobusSubmits < 5)' evaluated to TRUE
+...
+017 (1344.000.000) 04/09 14:51:52 Job submitted to Globus
+    RM-Contact: pf-grid.unl.edu/jobmanager-condor
+    JM-Contact: https://pf-grid.unl.edu:34264/12131/1270839109/
+    Can-Restart-JM: 1
+...
+027 (1344.000.000) 04/09 14:51:52 Job submitted to grid resource
+    GridResource: gt2 pf-grid.unl.edu/jobmanager-condor
+    GridJobId: gt2 pf-grid.unl.edu/jobmanager-condor https://pf-grid.unl.edu:34264/12131/1270839109/
+...
+012 (1344.000.000) 04/09 14:56:39 Job was held.
+	The job attribute PeriodicHold expression '(((JobStatus == 1) && ((CurrentTime - EnteredCurrentStatus) > (10 * 60))) || ((JobStatus == 2) && ((CurrentTime - EnteredCurrentStatus) > (5 * 60 * 60))))' evaluated to TRUE
+	Code 0 Subcode 0
+...
+013 (1344.000.000) 04/09 14:57:27 Job was released.
+	The job attribute PeriodicRelease expression '(NumGlobusSubmits < 5)' evaluated to TRUE
+...
+017 (1344.000.000) 04/09 15:02:02 Job submitted to Globus
+    RM-Contact: ce01.cmsaf.mit.edu/jobmanager-condor
+    JM-Contact: https://ce01.cmsaf.mit.edu:40943/7729/1270839721/
+    Can-Restart-JM: 1
+...
+027 (1344.000.000) 04/09 15:02:02 Job submitted to grid resource
+    GridResource: gt2 ce01.cmsaf.mit.edu/jobmanager-condor
+    GridJobId: gt2 ce01.cmsaf.mit.edu/jobmanager-condor https://ce01.cmsaf.mit.edu:40943/7729/1270839721/
+...
+012 (1344.000.000) 04/09 15:07:52 Job was held.
+	The job attribute PeriodicHold expression '(((JobStatus == 1) && ((CurrentTime - EnteredCurrentStatus) > (10 * 60))) || ((JobStatus == 2) && ((CurrentTime - EnteredCurrentStatus) > (5 * 60 * 60))))' evaluated to TRUE
+	Code 0 Subcode 0
+...
+013 (1344.000.000) 04/09 15:08:27 Job was released.
+	The job attribute PeriodicRelease expression '(NumGlobusSubmits < 5)' evaluated to TRUE
+...
+017 (1344.000.000) 04/09 15:12:18 Job submitted to Globus
+    RM-Contact: pg.ihepa.ufl.edu/jobmanager-condor
+    JM-Contact: https://pg.ihepa.ufl.edu:40913/22679/1270840335/
+    Can-Restart-JM: 1
+...
+027 (1344.000.000) 04/09 15:12:18 Job submitted to grid resource
+    GridResource: gt2 pg.ihepa.ufl.edu/jobmanager-condor
+    GridJobId: gt2 pg.ihepa.ufl.edu/jobmanager-condor https://pg.ihepa.ufl.edu:40913/22679/1270840335/
+...
+012 (1344.000.000) 04/09 15:19:06 Job was held.
+	The job attribute PeriodicHold expression '(((JobStatus == 1) && ((CurrentTime - EnteredCurrentStatus) > (10 * 60))) || ((JobStatus == 2) && ((CurrentTime - EnteredCurrentStatus) > (5 * 60 * 60))))' evaluated to TRUE
+	Code 0 Subcode 0
+...
+013 (1344.000.000) 04/09 15:19:27 Job was released.
+	The job attribute PeriodicRelease expression '(NumGlobusSubmits < 5)' evaluated to TRUE
+...
+017 (1344.000.000) 04/09 15:22:30 Job submitted to Globus
+    RM-Contact: gluskap.phys.uconn.edu/jobmanager-condor
+    JM-Contact: https://gluskap.phys.uconn.edu:45307/24276/1270840949/
+    Can-Restart-JM: 1
+...
+027 (1344.000.000) 04/09 15:22:30 Job submitted to grid resource
+    GridResource: gt2 gluskap.phys.uconn.edu/jobmanager-condor
+    GridJobId: gt2 gluskap.phys.uconn.edu/jobmanager-condor https://gluskap.phys.uconn.edu:45307/24276/1270840949/
+...
+012 (1344.000.000) 04/09 15:30:18 Job was held.
+	The job attribute PeriodicHold expression '(((JobStatus == 1) && ((CurrentTime - EnteredCurrentStatus) > (10 * 60))) || ((JobStatus == 2) && ((CurrentTime - EnteredCurrentStatus) > (5 * 60 * 60))))' evaluated to TRUE
+	Code 0 Subcode 0
+...

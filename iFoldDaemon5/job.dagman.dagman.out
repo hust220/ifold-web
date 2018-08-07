@@ -1,0 +1,334 @@
+4/7 10:50:52 Got node job_1 from the ready queue
+4/7 10:50:52 Submitting Condor Node job_1 job(s)...
+4/7 10:50:52 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:50:52 From submit: Submitting job(s)
+4/7 10:50:52 From submit: ERROR: proxy has expired
+4/7 10:50:52 failed while reading from pipe.
+4/7 10:50:52 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:50:52 ERROR: submit attempt failed
+4/7 10:50:52 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:50:52 Job submit try 2/6 failed, will try again in >= 2 seconds.
+4/7 10:50:52 ******************************************************
+4/7 10:50:52 ** condor_scheduniv_exec.1128.0 (CONDOR_DAGMAN) STARTING UP
+4/7 10:50:52 ** /home/condor/condor-6.8.5/bin/condor_dagman
+4/7 10:50:52 ** $CondorVersion: 6.8.5 May 17 2007 $
+4/7 10:50:52 ** $CondorPlatform: I386-LINUX_RHEL3 $
+4/7 10:50:52 ** PID = 30782
+4/7 10:50:52 ** Log last touched 4/7 10:50:52
+4/7 10:50:52 ******************************************************
+4/7 10:50:52 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+4/7 10:50:52 Using local config sources: 
+4/7 10:50:52    /home/condor/condor-6.8.5/local.troll/condor_config.local
+4/7 10:50:52 DaemonCore: Command Socket at <152.19.64.130:50390>
+4/7 10:50:52 DAGMAN_SUBMIT_DELAY setting: 0
+4/7 10:50:52 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+4/7 10:50:52 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+4/7 10:50:52 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+4/7 10:50:52 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+4/7 10:50:52 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+4/7 10:50:52 DAGMAN_RETRY_NODE_FIRST setting: 0
+4/7 10:50:52 DAGMAN_MAX_JOBS_IDLE setting: 0
+4/7 10:50:52 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+4/7 10:50:52 DAGMAN_MUNGE_NODE_NAMES setting: 1
+4/7 10:50:52 DAGMAN_DELETE_OLD_LOGS setting: 1
+4/7 10:50:52 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+4/7 10:50:52 DAGMAN_ABORT_DUPLICATES setting: 0
+4/7 10:50:52 argv[0] == "condor_scheduniv_exec.1128.0"
+4/7 10:50:52 argv[1] == "-Debug"
+4/7 10:50:52 argv[2] == "3"
+4/7 10:50:52 argv[3] == "-Lockfile"
+4/7 10:50:52 argv[4] == "job.dagman.lock"
+4/7 10:50:52 argv[5] == "-Condorlog"
+4/7 10:50:52 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon5/job.log"
+4/7 10:50:52 argv[7] == "-Dag"
+4/7 10:50:52 argv[8] == "job.dagman"
+4/7 10:50:52 argv[9] == "-Rescue"
+4/7 10:50:52 argv[10] == "job.dagman.rescue"
+4/7 10:50:52 DAG Lockfile will be written to job.dagman.lock
+4/7 10:50:52 DAG Input file is job.dagman
+4/7 10:50:52 Rescue DAG will be written to job.dagman.rescue
+4/7 10:50:52 All DAG node user log files:
+4/7 10:50:52   /var/www/localhost/htdocs/ifold/iFoldDaemon5/job.log (Condor)
+4/7 10:50:52 Parsing job.dagman ...
+4/7 10:50:52 Dag contains 1 total jobs
+4/7 10:50:52 Truncating any older versions of log files...
+4/7 10:50:52 MultiLogFiles: truncating older version of /var/www/localhost/htdocs/ifold/iFoldDaemon5/job.log
+4/7 10:50:52 Bootstrapping...
+4/7 10:50:52 Number of pre-completed nodes: 0
+4/7 10:50:52 Registering condor_event_timer...
+4/7 10:50:53 Got node job_1 from the ready queue
+4/7 10:50:53 Submitting Condor Node job_1 job(s)...
+4/7 10:50:53 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:50:53 From submit: Submitting job(s)
+4/7 10:50:53 From submit: ERROR: proxy has expired
+4/7 10:50:53 failed while reading from pipe.
+4/7 10:50:53 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:50:53 ERROR: submit attempt failed
+4/7 10:50:53 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:50:53 Job submit try 1/6 failed, will try again in >= 1 second.
+4/7 10:50:53 Of 1 nodes total:
+4/7 10:50:53  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+4/7 10:50:53   ===     ===      ===     ===     ===        ===      ===
+4/7 10:50:53     0       0        0       0       1          0        0
+4/7 10:50:57 Got node job_1 from the ready queue
+4/7 10:50:57 Submitting Condor Node job_1 job(s)...
+4/7 10:50:57 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:50:57 From submit: Submitting job(s)
+4/7 10:50:57 From submit: ERROR: proxy has expired
+4/7 10:50:57 failed while reading from pipe.
+4/7 10:50:57 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:50:57 ERROR: submit attempt failed
+4/7 10:50:57 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:50:57 Job submit try 3/6 failed, will try again in >= 4 seconds.
+4/7 10:50:58 Got node job_1 from the ready queue
+4/7 10:50:58 Submitting Condor Node job_1 job(s)...
+4/7 10:50:58 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:50:58 From submit: Submitting job(s)
+4/7 10:50:58 From submit: ERROR: proxy has expired
+4/7 10:50:58 failed while reading from pipe.
+4/7 10:50:58 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:50:58 ERROR: submit attempt failed
+4/7 10:50:58 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:50:58 Job submit try 2/6 failed, will try again in >= 2 seconds.
+4/7 10:51:02 Got node job_1 from the ready queue
+4/7 10:51:02 Submitting Condor Node job_1 job(s)...
+4/7 10:51:02 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:02 From submit: Submitting job(s)
+4/7 10:51:02 From submit: ERROR: proxy has expired
+4/7 10:51:02 failed while reading from pipe.
+4/7 10:51:02 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:51:02 ERROR: submit attempt failed
+4/7 10:51:02 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:02 Job submit try 4/6 failed, will try again in >= 8 seconds.
+4/7 10:51:03 Got node job_1 from the ready queue
+4/7 10:51:03 Submitting Condor Node job_1 job(s)...
+4/7 10:51:03 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:03 From submit: Submitting job(s)
+4/7 10:51:03 From submit: ERROR: proxy has expired
+4/7 10:51:03 failed while reading from pipe.
+4/7 10:51:03 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:51:03 ERROR: submit attempt failed
+4/7 10:51:03 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:03 Job submit try 3/6 failed, will try again in >= 4 seconds.
+4/7 10:51:08 Got node job_1 from the ready queue
+4/7 10:51:08 Submitting Condor Node job_1 job(s)...
+4/7 10:51:09 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:09 From submit: Submitting job(s)
+4/7 10:51:09 From submit: ERROR: proxy has expired
+4/7 10:51:09 failed while reading from pipe.
+4/7 10:51:09 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:51:09 ERROR: submit attempt failed
+4/7 10:51:09 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:09 Job submit try 4/6 failed, will try again in >= 8 seconds.
+4/7 10:51:13 Got node job_1 from the ready queue
+4/7 10:51:13 Submitting Condor Node job_1 job(s)...
+4/7 10:51:13 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:13 From submit: Submitting job(s)
+4/7 10:51:13 From submit: ERROR: proxy has expired
+4/7 10:51:13 failed while reading from pipe.
+4/7 10:51:13 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:51:13 ERROR: submit attempt failed
+4/7 10:51:13 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:13 Job submit try 5/6 failed, will try again in >= 16 seconds.
+4/7 10:51:20 Got node job_1 from the ready queue
+4/7 10:51:20 Submitting Condor Node job_1 job(s)...
+4/7 10:51:20 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:20 From submit: Submitting job(s)
+4/7 10:51:20 From submit: ERROR: proxy has expired
+4/7 10:51:20 failed while reading from pipe.
+4/7 10:51:20 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:51:20 ERROR: submit attempt failed
+4/7 10:51:20 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:20 Job submit try 5/6 failed, will try again in >= 16 seconds.
+4/7 10:51:30 Got node job_1 from the ready queue
+4/7 10:51:30 Submitting Condor Node job_1 job(s)...
+4/7 10:51:30 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:30 From submit: Submitting job(s)
+4/7 10:51:30 From submit: ERROR: proxy has expired
+4/7 10:51:30 failed while reading from pipe.
+4/7 10:51:30 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:51:30 ERROR: submit attempt failed
+4/7 10:51:30 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1123 -a DAGManJobId' '=' '1123 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:51:30 Job submit failed after 6 tries.
+4/7 10:51:30 Shortcutting node job_1 retries because of submit failure(s)
+4/7 10:51:30 Running POST script of Node job_1...
+4/7 10:51:30 Of 1 nodes total:
+4/7 10:51:30  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+4/7 10:51:30   ===     ===      ===     ===     ===        ===      ===
+4/7 10:51:30     0       0        0       1       0          0        0
+4/7 10:51:32 Event: ULOG_POST_SCRIPT_TERMINATED for Condor Node job_1 (-1.0)
+4/7 10:51:32 ERROR "Assertion ERROR on (recovery)" at line 833 in file dag.C
+4/7 10:51:35 Event: ULOG_POST_SCRIPT_TERMINATED for Condor Node job_1 (-1.0)
+4/7 10:51:35 POST Script of Node job_1 failed with status 1
+4/7 10:51:35 Of 1 nodes total:
+4/7 10:51:35  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+4/7 10:51:35   ===     ===      ===     ===     ===        ===      ===
+4/7 10:51:35     0       0        0       0       0          0        1
+4/7 10:51:35 ERROR: the following job(s) failed:
+4/7 10:51:35 ---------------------- Job ----------------------
+4/7 10:51:35       Node Name: job_1
+4/7 10:51:35          NodeID: 0
+4/7 10:51:35     Node Status: STATUS_ERROR    
+4/7 10:51:35 Node return val: 1
+4/7 10:51:35           Error: Job failed due to DAGMAN error 0 and POST Script failed with status 1 (after 5 node retries)
+4/7 10:51:35 Job Submit File: job.condor
+4/7 10:51:35     POST Script: /var/www/localhost/htdocs/ifold/iFoldDaemon5/postscript.sh /var/www/localhost/htdocs/ifold/iFoldDaemon5
+4/7 10:51:35           Retry: 5
+4/7 10:51:35   Condor Job ID: [not yet submitted]
+4/7 10:51:35       Q_PARENTS: <END>
+4/7 10:51:35       Q_WAITING: <END>
+4/7 10:51:35      Q_CHILDREN: <END>
+4/7 10:51:35 ---------------------------------------	<END>
+4/7 10:51:35 Aborting DAG...
+4/7 10:51:35 Writing Rescue DAG to job.dagman.rescue...
+4/7 10:51:35 Note: 0 total job deferrals because of -MaxJobs limit (0)
+4/7 10:51:35 Note: 0 total job deferrals because of -MaxIdle limit (0)
+4/7 10:51:35 Note: 0 total PRE script deferrals because of -MaxPre limit (0)
+4/7 10:51:35 Note: 0 total POST script deferrals because of -MaxPost limit (0)
+4/7 10:51:35 **** condor_scheduniv_exec.1123.0 (condor_DAGMAN) EXITING WITH STATUS 1
+4/7 10:56:35 ******************************************************
+4/7 10:56:35 ** condor_scheduniv_exec.1128.0 (CONDOR_DAGMAN) STARTING UP
+4/7 10:56:35 ** /home/condor/condor-6.8.5/bin/condor_dagman
+4/7 10:56:35 ** $CondorVersion: 6.8.5 May 17 2007 $
+4/7 10:56:35 ** $CondorPlatform: I386-LINUX_RHEL3 $
+4/7 10:56:35 ** PID = 31640
+4/7 10:56:35 ** Log last touched 4/7 10:51:35
+4/7 10:56:35 ******************************************************
+4/7 10:56:35 Using config source: /home/condor/condor-6.8.5/etc/condor_config
+4/7 10:56:35 Using local config sources: 
+4/7 10:56:35    /home/condor/condor-6.8.5/local.troll/condor_config.local
+4/7 10:56:35 DaemonCore: Command Socket at <152.19.64.130:46603>
+4/7 10:56:35 DAGMAN_SUBMIT_DELAY setting: 0
+4/7 10:56:35 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+4/7 10:56:35 DAGMAN_STARTUP_CYCLE_DETECT setting: 0
+4/7 10:56:35 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+4/7 10:56:35 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+4/7 10:56:35 DAGMAN_RETRY_SUBMIT_FIRST setting: 1
+4/7 10:56:35 DAGMAN_RETRY_NODE_FIRST setting: 0
+4/7 10:56:35 DAGMAN_MAX_JOBS_IDLE setting: 0
+4/7 10:56:35 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+4/7 10:56:35 DAGMAN_MUNGE_NODE_NAMES setting: 1
+4/7 10:56:35 DAGMAN_DELETE_OLD_LOGS setting: 1
+4/7 10:56:35 DAGMAN_PROHIBIT_MULTI_JOBS setting: 0
+4/7 10:56:35 DAGMAN_ABORT_DUPLICATES setting: 0
+4/7 10:56:35 argv[0] == "condor_scheduniv_exec.1128.0"
+4/7 10:56:35 argv[1] == "-Debug"
+4/7 10:56:35 argv[2] == "3"
+4/7 10:56:35 argv[3] == "-Lockfile"
+4/7 10:56:35 argv[4] == "job.dagman.lock"
+4/7 10:56:35 argv[5] == "-Condorlog"
+4/7 10:56:35 argv[6] == "/var/www/localhost/htdocs/ifold/iFoldDaemon5/job.log"
+4/7 10:56:35 argv[7] == "-Dag"
+4/7 10:56:35 argv[8] == "job.dagman"
+4/7 10:56:35 argv[9] == "-Rescue"
+4/7 10:56:35 argv[10] == "job.dagman.rescue"
+4/7 10:56:35 DAG Lockfile will be written to job.dagman.lock
+4/7 10:56:35 DAG Input file is job.dagman
+4/7 10:56:35 Rescue DAG will be written to job.dagman.rescue
+4/7 10:56:35 All DAG node user log files:
+4/7 10:56:35   /var/www/localhost/htdocs/ifold/iFoldDaemon5/job.log (Condor)
+4/7 10:56:35 Parsing job.dagman ...
+4/7 10:56:35 Dag contains 1 total jobs
+4/7 10:56:35 Truncating any older versions of log files...
+4/7 10:56:35 MultiLogFiles: truncating older version of /var/www/localhost/htdocs/ifold/iFoldDaemon5/job.log
+4/7 10:56:35 Bootstrapping...
+4/7 10:56:35 Number of pre-completed nodes: 0
+4/7 10:56:35 Registering condor_event_timer...
+4/7 10:56:36 Got node job_1 from the ready queue
+4/7 10:56:36 Submitting Condor Node job_1 job(s)...
+4/7 10:56:36 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:56:36 From submit: Submitting job(s)
+4/7 10:56:36 From submit: ERROR: proxy has expired
+4/7 10:56:36 failed while reading from pipe.
+4/7 10:56:36 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:56:36 ERROR: submit attempt failed
+4/7 10:56:36 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:56:36 Job submit try 1/6 failed, will try again in >= 1 second.
+4/7 10:56:36 Of 1 nodes total:
+4/7 10:56:36  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+4/7 10:56:36   ===     ===      ===     ===     ===        ===      ===
+4/7 10:56:36     0       0        0       0       1          0        0
+4/7 10:56:41 Got node job_1 from the ready queue
+4/7 10:56:41 Submitting Condor Node job_1 job(s)...
+4/7 10:56:41 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:56:42 From submit: Submitting job(s)
+4/7 10:56:42 From submit: ERROR: proxy has expired
+4/7 10:56:42 failed while reading from pipe.
+4/7 10:56:42 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:56:42 ERROR: submit attempt failed
+4/7 10:56:42 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:56:42 Job submit try 2/6 failed, will try again in >= 2 seconds.
+4/7 10:56:47 Got node job_1 from the ready queue
+4/7 10:56:47 Submitting Condor Node job_1 job(s)...
+4/7 10:56:47 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:56:47 From submit: Submitting job(s)
+4/7 10:56:47 From submit: ERROR: proxy has expired
+4/7 10:56:47 failed while reading from pipe.
+4/7 10:56:47 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:56:47 ERROR: submit attempt failed
+4/7 10:56:47 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:56:47 Job submit try 3/6 failed, will try again in >= 4 seconds.
+4/7 10:56:52 Got node job_1 from the ready queue
+4/7 10:56:52 Submitting Condor Node job_1 job(s)...
+4/7 10:56:52 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:56:52 From submit: Submitting job(s)
+4/7 10:56:52 From submit: ERROR: proxy has expired
+4/7 10:56:52 failed while reading from pipe.
+4/7 10:56:52 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:56:52 ERROR: submit attempt failed
+4/7 10:56:52 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:56:52 Job submit try 4/6 failed, will try again in >= 8 seconds.
+4/7 10:57:03 Got node job_1 from the ready queue
+4/7 10:57:03 Submitting Condor Node job_1 job(s)...
+4/7 10:57:03 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:57:03 From submit: Submitting job(s)
+4/7 10:57:03 From submit: ERROR: proxy has expired
+4/7 10:57:03 failed while reading from pipe.
+4/7 10:57:03 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:57:03 ERROR: submit attempt failed
+4/7 10:57:03 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:57:03 Job submit try 5/6 failed, will try again in >= 16 seconds.
+4/7 10:57:20 Got node job_1 from the ready queue
+4/7 10:57:20 Submitting Condor Node job_1 job(s)...
+4/7 10:57:20 submitting: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:57:20 From submit: Submitting job(s)
+4/7 10:57:20 From submit: ERROR: proxy has expired
+4/7 10:57:20 failed while reading from pipe.
+4/7 10:57:20 Read so far: Submitting job(s)ERROR: proxy has expired
+4/7 10:57:20 ERROR: submit attempt failed
+4/7 10:57:20 submit command was: condor_submit -a dag_node_name' '=' 'job_1 -a +DAGManJobId' '=' '1128 -a DAGManJobId' '=' '1128 -a submit_event_notes' '=' 'DAG' 'Node:' 'job_1 -a +DAGParentNodeNames' '=' '"" job.condor
+4/7 10:57:20 Job submit failed after 6 tries.
+4/7 10:57:20 Shortcutting node job_1 retries because of submit failure(s)
+4/7 10:57:20 Running POST script of Node job_1...
+4/7 10:57:20 Of 1 nodes total:
+4/7 10:57:20  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+4/7 10:57:20   ===     ===      ===     ===     ===        ===      ===
+4/7 10:57:20     0       0        0       1       0          0        0
+4/7 10:57:25 Event: ULOG_POST_SCRIPT_TERMINATED for Condor Node job_1 (-1.0)
+4/7 10:57:25 POST Script of Node job_1 failed with status 1
+4/7 10:57:25 Of 1 nodes total:
+4/7 10:57:25  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+4/7 10:57:25   ===     ===      ===     ===     ===        ===      ===
+4/7 10:57:25     0       0        0       0       0          0        1
+4/7 10:57:25 ERROR: the following job(s) failed:
+4/7 10:57:25 ---------------------- Job ----------------------
+4/7 10:57:25       Node Name: job_1
+4/7 10:57:25          NodeID: 0
+4/7 10:57:25     Node Status: STATUS_ERROR    
+4/7 10:57:25 Node return val: 1
+4/7 10:57:25           Error: Job failed due to DAGMAN error 0 and POST Script failed with status 1 (after 5 node retries)
+4/7 10:57:25 Job Submit File: job.condor
+4/7 10:57:25     POST Script: /var/www/localhost/htdocs/ifold/iFoldDaemon5/postscript.sh /var/www/localhost/htdocs/ifold/iFoldDaemon5
+4/7 10:57:25           Retry: 5
+4/7 10:57:25   Condor Job ID: [not yet submitted]
+4/7 10:57:25       Q_PARENTS: <END>
+4/7 10:57:25       Q_WAITING: <END>
+4/7 10:57:25      Q_CHILDREN: <END>
+4/7 10:57:25 ---------------------------------------	<END>
+4/7 10:57:25 Aborting DAG...
+4/7 10:57:25 Writing Rescue DAG to job.dagman.rescue...
+4/7 10:57:25 Note: 0 total job deferrals because of -MaxJobs limit (0)
+4/7 10:57:25 Note: 0 total job deferrals because of -MaxIdle limit (0)
+4/7 10:57:25 Note: 0 total PRE script deferrals because of -MaxPre limit (0)
+4/7 10:57:25 Note: 0 total POST script deferrals because of -MaxPost limit (0)
+4/7 10:57:25 **** condor_scheduniv_exec.1128.0 (condor_DAGMAN) EXITING WITH STATUS 1

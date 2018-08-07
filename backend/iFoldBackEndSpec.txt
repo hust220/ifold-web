@@ -1,0 +1,236 @@
+
+//to start with, here are some constant integer values for certain non-numeral parameters
+//dont worry about the names, we just need the int values to correspond the DB and back-end
+
+// foldType values (read below)
+TYPE_UNFOLD = 1		//Unfolding (Custom inlcuded)
+TYPE_FOLD = 2		//Folding (Custom Included)
+TYPE_THERMOSCAN = 3	//Thermodynamic Scan
+TYPE_ANNEAL = 4		//Simulated Annealing
+TYPE_PFOLD = 5		//pFold Scan
+
+// modelType values(read below)
+//These specifiy the granularity of the model used in processsing stages
+TYPE_ONE = 1		//one-bead
+TYPE_TWO = 2		//two-bead
+TYPE_FOUR = 3	//four-bead
+TYPE_QUASI = 4	//quasi-all atom
+TYPE_ALL = 5		//all atom
+
+//ouput type values(read below)
+//These will be used in an "outputs" table where we will store references to all returned output
+//they shouldnt need to be used in the front end except to identify output types to the user after they have been returned
+TYPE_CONTACT_FREQ_MAP = 1	//zipped png graphs 
+TYPE_CS_VS_TEMP = 2		//zipped png graphs
+TYPE_ENERGY_VS_TEMP = 3		//zipped png graphs
+TYPE_ENERGY_VS_TIME = 4		//zipped png graphs	
+TYPE_RADIUS_VS_TEMP = 5		//zipped png graphs
+TYPE_PFOLD_REPORT = 6		//txt .report file
+TYPE_ANNEAL_REPORT = 7		//txt .report file
+TYPE_TRAJECTORY = 8		//zipped pdb files
+TYPE_MOV = 9			//zipped mov files
+TYPE_ECHO = 10			//Zipped echo files
+TYPE_RMS = 11			//zipped .rms files
+TYPE_RAW = 12			//zipped raw txt output / input
+TYPE_UNKOWN = 256			//zipped something (just in case)
+
+//Daemon action values
+ACTION_ACCEPT = 1
+ACTION_DENY = 2
+
+//daemon status values
+STATUS_WAITING = 1;
+STATUS_BUSY = 2;
+STATUS_UNKNOWN = 3;
+
+
+
+//PARAMETERS
+
+//Task Related Parameters
+pdbCode			- string , code for pdb file (if given)
+pdbFileName			- string , custom pdb filename
+pdbDecoyFileName		- string , custom decoy pdb filename
+foldType			- integer , basic fold type (listed above )
+simTime			- integer
+numIterations		- integer
+initialTemp			- floating point
+finalTemp			- floating point
+heatExchCo			- floating point
+transTemp			- floating point
+temp1				- floating point (used in thermoscan only)
+temp2				- floating point (used in thermoscan only)
+temp3				- floating point (used in thermoscan only)
+temp4				- floating point (used in thermoscan only)
+temp5				- floating point (used in thermoscan only)
+temp6				- floating point (used in thermoscan only)
+//added
+modelType			- int 1-5
+
+//Output Related Parameters
+//trajModelType		- integer *** NO LONGER NEEDED, WILL USE TASK PARAM 'modelType'
+trajMin			- integer
+trajMax			- integer
+trajInterval		- integer
+contactFreqMap		- boolean
+cvVsTemp			- boolean
+equilOffset			- integer (parameter needed for cvVsTemp output type)
+energyVsTemp		- boolean
+energyVsTime		- boolean
+radiusVsTime		- boolean
+//added
+mov				- boolean //movs from all iterations (zipped)
+echoRms			- boolean //echo and rms from all iterations (zipped)
+raw				- boolean //txt0000 files, *can be large* (advanced only)(zipped)
+
+
+
+//NOTE - there are other possbilities of returned output (other than those listed above) for certain fold types, but these specific outputs are always generated and will always be passed back, the possbile output types are listed at the top
+
+//Listed Below are the fold types with default parameter values, ranges, and any other rules, in the following manner: 		parameterName(defaultValue): minRange < x < maxRange
+//some parameters depend on others, so the ranges may somtimes include other listed parameters to reflect this relationship
+
+//Notes about parameters...
+//Trajectory Ranges really just select a window of the total simTime parameter in which the user would like to have the data.
+//The trajInterval specifies the polling interval at which the data is sampled
+
+
+
+
+TYPE_UNFOLD
+Input Parameters:
+foldType:				1
+pdbCode OR pdbFileName: 	String
+initalTemp(.4):			0 < x < finalTemp
+finalTemp(1.2):			initialTemp < x < ...
+heatExchCo(0.0001):		0 < x <= .005
+simTime(100,000):			1,000 <= x <= 100,000
+modelType				1 - 5
+
+Ouput Parameters:
+trajMin(0):				0 <= x <= simTime
+trajMax(simTime):			trajMin < x <= simTime
+trajInterval(1):			0 <= x < simTime
+energyVsTemp(0):			1 OR 0 (true or false)
+energyVsTime(0):			1 OR 0 (true or false)
+radiusVsTime(0):			1 OR 0 (true or false)
+mov(0):				1 OR 0
+echo(0):				1 OR 0
+Rms(0):				1 OR 0
+raw(0):				1 OR 0
+
+
+
+
+TYPE_FOLD
+Input Parameters:
+foldType				2
+pdbCode OR pdbFileName: 	String
+initalTemp(1.2):			finalTemp < x < ...
+finalTemp(.4):			0 < x < initialTemp
+heatExchCo(0.0001):		0 < x <= .005
+simTime(100,000):			1,000 <= x <= 100,000
+modelType				1 - 5
+
+Output Parameters:
+trajMin(0):				0 <= x <= simTime
+trajMax(simTime):			trajMin < x <= simTime
+trajInterval(1):			0 <= x < simTime
+energyVsTemp(0):			1 OR 0 (true or false)
+energyVsTime(0):			1 OR 0 (true or false)
+radiusVsTime(0):			1 OR 0 (true or false)
+mov(0):				1 OR 0
+echo(0):				1 OR 0
+Rms(0):				1 OR 0
+raw(0):				1 OR 0
+
+
+
+
+TYPE_THERMOSCAN
+Input Parameters:
+foldType				3
+pdbCode OR pdbFileName: 	String
+temp1(.6):				.4 <= x <= 1.4
+temp2(.7):				.4 <= x <= 1.4
+temp3(.8):				.4 <= x <= 1.4
+temp4(.9):				.4 <= x <= 1.4
+temp5(1.0):				.4 <= x <= 1.4
+temp6(1.1):				.4 <= x <= 1.4
+heatExchCo(0.0001):		0 < x <= .005
+simTime(50,000):			1,000 <= x <= 100,000
+modelType				1 - 5
+
+Output Parameters:
+trajMin(0):				0 <= x <= simTime
+trajMax(simTime):			trajMin < x <= simTime
+trajInterval(1):			0 <= x < simTime
+energyVsTemp(0):			1 OR 0 (true or false)
+contactFreqMap(0):		1 OR 0 (true or false)
+cvVsTemp(0):			1 OR 0 (true or false)
+equilibrationOffset(0):		0 <= x <= simTime
+mov(0):				1 OR 0
+echo(0):				1 OR 0
+Rms(0):				1 OR 0
+raw(0):				1 OR 0
+
+
+
+
+TYPE_ANNEAL
+Input Parameters:
+foldType				4
+pdbCode OR pdbFileName: 	String
+initalTemp(1.0):			finalTemp < x < ...
+finalTemp(0.3):			0 < x initalTemp
+heatExchCo(0.0001):		0 < x <= .005
+numIterations(5):			1 <= x <= 50
+simTime(10,000):			2,000 <= x <= 20,000
+modelType				1 - 5
+
+Output Parameters:
+trajMin(0):				0 <= x <= simTime
+trajMax(simTime):			trajMin < x <= simTime
+trajInterval(1):			0 <= x < simTime
+energyVsTemp(0):			1 OR 0 (true or false)
+energyVsTime(0):			1 OR 0 (true or false)
+radiusVsTime(0):			1 OR 0 (true or false)
+mov(0):				1 OR 0
+echo(0):				1 OR 0
+Rms(0):				1 OR 0
+raw(0):				1 OR 0
+
+
+
+
+
+TYPE_PFOLD
+Input Parameters:
+foldType				5
+pdbCode OR pdbFileName: 	String
+pdbDecoyFileName: 		String
+transTemp(0.8)			0 < x < ...
+numIterations(10):		1 <= x <= 1,000
+
+Output Parameters:
+//None - This type produces one output file which is always returned
+//added
+mov(0)				1 OR 0
+
+
+
+
+
+
+
+
+//perl script examples
+
+perl fetchpdb.sh 1H1K
+	results in 1H1K.pdb if successful
+perl validatePDB.pl 1h1k.pdb
+	prints "true" or "false"
+perl prepareForDMD.pl 1h1k.pdb
+	results in init.txt
+
+

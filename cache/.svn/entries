@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="18"
+   name=""
+   committed-date="2006-02-22T05:01:09.108000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/cache"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="13"
+   name="%%B5^B5B^B5BFC23F%%general.tpl"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-21T01:24:58.264250Z"
+   checksum="0e6f8484ac37f305d7de28b4b5453ce7"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="18"
+   name="%%8F^8F0^8F0B78F1%%welcome.tpl"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-22T05:01:09.108000Z"
+   checksum="d971ea0b92da7eb76a90a6b6c01c626b"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="18"
+   name="%%45^45E^45E480CD%%index.tpl"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-22T05:01:09.108000Z"
+   checksum="5db0c8ab12a3708e8954c36f28f4f279"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+</wc-entries>

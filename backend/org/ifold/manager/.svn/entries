@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="66"
+   name=""
+   committed-date="2006-04-06T05:27:25.995000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/backend/org/ifold/manager"
+   last-author="dan"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="66"
+   name="ManagerMain.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="052092ad24ff1efd7eedf2bb6b36f408"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="23"
+   name="ManagerListener.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-02-24T02:08:35.311125Z"
+   checksum="ae7b73f33144ebbd63b4b4cf0415ad32"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="66"
+   name="ManagerDistributor.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="d632783bfbf41c08c51b5cceda8b5710"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="66"
+   name="ManagerSocketReader.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="a9c0ad2b9bc90fa0ff191f38e90183ca"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+<entry
+   committed-rev="66"
+   name="ManagerPhpListener.java"
+   text-time="2006-04-06T23:27:35.000000Z"
+   committed-date="2006-04-06T05:27:25.995000Z"
+   checksum="c81e4997e19333755ec66db73f40adeb"
+   last-author="dan"
+   kind="file"
+   prop-time="2006-04-06T23:27:35.000000Z"/>
+</wc-entries>

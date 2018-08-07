@@ -1,0 +1,72 @@
+70c70
+< void init_coll( well_type j, well_type prev, well_type next, double mi,double mj ,double en,double diam,int react)
+---
+> init_coll( well_type j, well_type prev, well_type next, double mi,double mj ,double en,double diam,int react)
+73,106c73,81
+<   double dd = diam*diam;
+<   double dm = 0;
+<   double edm = 0;
+<   double mu = 0;
+<   double dmu = 0;
+<   
+<   if(mi<m_max){
+<     if(mj<m_max){
+<       dm=1.0/((mi+mj)*dd);
+<       mu = (mi*mj)/(mi+mj);
+<       dmu = dd/mu;
+<       if(en!=dblarg1) edm=-2.0*en/(mi*mj*dm);
+<     }
+<     else{
+<       mu = mi;
+<       dmu = dd/mu;
+<       if(en!=dblarg1) edm=-2.0*en*dd/mi;
+<     }
+<   }
+<   else{
+<     if(mj<m_max){
+<       mu = mj;
+<       dmu = dd/mu;
+<       if(en!=dblarg1) edm=-2*en*dd/mj;
+<     }
+<   }
+<   
+<   coll[j].dd = dd;  
+<   coll[j].mu = mu;
+<   coll[j].dmu = dmu;
+<   coll[j].e = coll[j].eo = -en;
+<   /*printf("HI\n");*/
+<   coll[j].dm = dm;
+<   coll[j].edm = coll[j].edmo = edm;
+---
+>   coll[j].e=-en;
+>   coll[j].eo=-en;
+>   coll[j].dd=diam*diam;
+>   coll[j].dm=1/((mi+mj)*coll[j].dd);
+>   if(en!=dblarg1)
+>     coll[j].edm=2*coll[j].e/(mi*mj*coll[j].dm);
+>   else
+>     coll[j].edm=0;
+>   coll[j].edmo=coll[j].edm;
+110c85
+<   /*printf(" well\n");*/
+---
+> /*printf(" well\n");*/
+670c645
+<   int isfile,err,i,j;
+---
+>   int isfile,err,i;
+695,696c670
+<   j=make_tables(isfile);
+<   return j;
+---
+>   return make_tables(isfile);
+1581,1587c1555
+< 		      }
+< 		    if(a[i].m >= m_max){
+< 		      a[i].v.x =0;
+< 		      a[i].v.y =0;
+<                       a[i].v.z =0;
+< 		      printf("imobilize: %ld:3 %20.18lf %20.18lf %20.18lf\n", i, a[i].v.x, a[i].v.y, a[i].v.z);
+< 		    }
+---
+> 		      }		    

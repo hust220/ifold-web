@@ -1,0 +1,29 @@
+000 (365.000.000) 11/28 17:11:22 Job submitted from host: <152.19.36.1:35966>
+    DAG Node: job_1
+...
+017 (365.000.000) 11/28 17:11:53 Job submitted to Globus
+    RM-Contact: fngp-osg.fnal.gov:2119/jobmanager-condor
+    JM-Contact: https://fngp-osg.fnal.gov:26058/19807/1196287927/
+    Can-Restart-JM: 1
+...
+027 (365.000.000) 11/28 17:11:53 Job submitted to grid resource
+    GridResource: gt2 fngp-osg.fnal.gov:2119/jobmanager-condor
+    GridJobId: gt2 fngp-osg.fnal.gov:2119/jobmanager-condor https://fngp-osg.fnal.gov:26058/19807/1196287927/
+...
+001 (365.000.000) 11/28 17:13:23 Job executing on host: gt2 fngp-osg.fnal.gov:2119/jobmanager-condor
+...
+005 (365.000.000) 11/28 17:19:07 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (365.000.000) 11/28 17:19:12 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: job_1
+...

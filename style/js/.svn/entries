@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="132"
+   name=""
+   committed-date="2006-05-11T16:42:36.161250Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/style/js"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="13"
+   name="prototype.js"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-21T01:24:58.264250Z"
+   checksum="ec266084ece29ede795db38c9c8cbf3d"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="67"
+   name="adminifold.js"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="8c9bb879f7406c22a5361483c764806b"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="13"
+   name="moo.fx.js"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-21T01:24:58.264250Z"
+   checksum="3f2b4600b693b3defafa4823a39e9a58"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="95"
+   name="profileEdit.js"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-23T16:04:50.796875Z"
+   checksum="f00bad708d97143a85511ca2e4fba8d5"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="50"
+   name="ifoldtabs.js"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-19T01:14:49.920500Z"
+   checksum="b755f43e37a1edc7d50d83c007057e19"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   name="rte"
+   kind="dir"/>
+<entry
+   committed-rev="108"
+   name="greybox.js"
+   text-time="2006-05-02T02:30:38.000000Z"
+   committed-date="2006-05-02T02:34:33.170000Z"
+   checksum="463977e648c4d3865ea30acf1d82b284"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-02T02:30:38.000000Z"/>
+<entry
+   committed-rev="96"
+   name="adminuserlist.js"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-23T16:53:40.078125Z"
+   checksum="7e2a35fb2ac149ee8e5eb8dbb71065e4"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="13"
+   name="moo.fx.pack.js"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-21T01:24:58.264250Z"
+   checksum="265fe8fd09488b5bf4f074ea27593f71"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="105"
+   name="queue.js"
+   text-time="2006-04-30T21:21:49.000000Z"
+   committed-date="2006-04-30T08:55:08.195500Z"
+   checksum="34ab041e0d1b53172be4ff8da66dfac1"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-30T21:21:49.000000Z"/>
+<entry
+   name="scriptaculous"
+   kind="dir"/>
+<entry
+   committed-rev="94"
+   name="ifolderrors.js"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-22T20:00:03.439375Z"
+   checksum="9a6cd9e29a114aa525630d9fdc5b158a"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="49"
+   name="welcome.js"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-03-13T04:34:44.951750Z"
+   checksum="4b4d459fe7cad43d011f4e6fe366bdb8"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="99"
+   name="rico.js"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-29T21:39:21.836125Z"
+   checksum="e09283f62eac8f4a47b3214702ce4e31"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="13"
+   name="ifold.js"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-21T01:24:58.264250Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="94"
+   name="helpEdit.js"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-22T20:00:03.439375Z"
+   checksum="51d5e1f2117f400b63eecec6483d0c4a"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="93"
+   name="ifoldajax.js"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-21T03:16:18.408125Z"
+   checksum="71d25f02d7fdd66a1887f398c620b23b"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="132"
+   name="submit.js"
+   text-time="2006-05-11T16:36:32.000000Z"
+   committed-date="2006-05-11T16:42:36.161250Z"
+   checksum="5b735d931002f46d49742d5a1f9043dc"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-11T16:36:32.000000Z"/>
+<entry
+   committed-rev="103"
+   name="AmiJS.js"
+   text-time="2006-04-30T21:21:49.000000Z"
+   committed-date="2006-04-30T08:42:05.867375Z"
+   checksum="4bbb16c542b0c6a554a01c45b67965c3"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-30T21:21:49.000000Z"/>
+</wc-entries>

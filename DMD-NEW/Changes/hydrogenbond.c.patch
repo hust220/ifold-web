@@ -1,0 +1,108 @@
+249,250c249
+<   /*ed=2*duc/(m1*m2*coll[ct].dm);*/
+<   ed=2*duc*coll[ct].dmu;
+---
+>   ed=2*duc/(m1*m2*coll[ct].dm);
+258,259c257
+<       /*ab=-2.0*sc*coll[ct].dm;*/
+<       ab=-2.0*sc;
+---
+>       ab=-2.0*sc*coll[ct].dm;
+267,268c265
+<       /*ab=sc*coll[ct].dm*(sqrt(di)-1.0);*/
+<       ab=sc*(sqrt(di)-1.0);
+---
+>       ab=sc*coll[ct].dm*(sqrt(di)-1.0);
+324c321
+<   /*
+---
+>   
+334,365c331
+<   */
+<   if(m1>=m_max){
+<     if(m2>=m_max){
+<       fprintf(stderr, "No static ball should colide!!! Please check the V!\n");
+<       exit(2);
+<     }
+<     else{
+<       ab2 = -ab/coll[ct].dd;
+<       a2->v.x+=x*ab2;
+<       a2->v.y+=y*ab2;
+<       a2->v.z+=z*ab2;
+<     }
+<   }
+<   else{
+<     if(m2>=m_max){
+<       ab1 = ab/coll[ct].dd;
+<       a1->v.x+=x*ab1;
+<       a1->v.y+=y*ab1;
+<       a1->v.z+=z*ab1;
+<     }
+<     else{
+<       ab1=ab*m2*coll[ct].dm;
+<       ab2=-ab*m1*coll[ct].dm;
+<       a1->v.x+=x*ab1;
+<       a1->v.y+=y*ab1;
+<       a1->v.z+=z*ab1;
+<       a2->v.x+=x*ab2;
+<       a2->v.y+=y*ab2;
+<       a2->v.z+=z*ab2;
+<     }
+<   }
+<   virial+=ab*coll[ct].mu;
+---
+> 
+656,657c622
+<   /*ed=2*duc/(mA*mC*coll[ct].dm);*/
+<   ed=2*duc*coll[ct].dmu;
+---
+>   ed=2*duc/(mA*mC*coll[ct].dm);
+663,664c628
+<     /*ab=-2.0*sc*coll[ct].dm;*/
+<     ab=-2.0*sc;
+---
+>     ab=-2.0*sc*coll[ct].dm;
+674,675c638
+<     /*ab=sc*coll[ct].dm*(sqrt(di)-1.0);*/
+<     ab=sc*(sqrt(di)-1.0);
+---
+>     ab=sc*coll[ct].dm*(sqrt(di)-1.0);
+735c698
+<   /*
+---
+> 
+751,782c714
+<   */
+<   if(mA>=m_max){
+<     if(mC>=m_max){
+<       fprintf(stderr, "No static ball should colide!!! Please check the V!\n");
+<       exit(2);
+<     }
+<     else{
+<       abC = -sign*ab/coll[ct].dd;
+<       a[C].v.x+=x*abC;
+<       a[C].v.y+=y*abC;
+<       a[C].v.z+=z*abC;
+<     }
+<   }
+<   else{
+<     if(mC>=m_max){
+<       abA = sign*ab/coll[ct].dd;
+<       a[A].v.x+=x*abA;
+<       a[A].v.y+=y*abA;
+<       a[A].v.z+=z*abA;
+<     }
+<     else{
+<       abA=sign*ab*mC*coll[ct].dm;
+<       abC=-sign*ab*mA*coll[ct].dm;
+<       a[A].v.x+=x*abA;
+<       a[A].v.y+=y*abA;
+<       a[A].v.z+=z*abA;
+<       a[C].v.x+=x*abC;
+<       a[C].v.y+=y*abC;
+<       a[C].v.z+=z*abC;
+<     }
+<   }
+<   virial+=ab*coll[ct].mu;
+---
+> 

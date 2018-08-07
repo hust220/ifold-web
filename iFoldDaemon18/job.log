@@ -1,0 +1,29 @@
+000 (351.000.000) 11/08 06:52:07 Job submitted from host: <152.19.36.1:35966>
+    DAG Node: job_1
+...
+017 (351.000.000) 11/08 06:52:34 Job submitted to Globus
+    RM-Contact: grid3.aset.psu.edu:2119/jobmanager-pbs
+    JM-Contact: https://grid3.aset.psu.edu:52460/10669/1194522754/
+    Can-Restart-JM: 1
+...
+027 (351.000.000) 11/08 06:52:34 Job submitted to grid resource
+    GridResource: gt2 grid3.aset.psu.edu:2119/jobmanager-pbs
+    GridJobId: gt2 grid3.aset.psu.edu:2119/jobmanager-pbs https://grid3.aset.psu.edu:52460/10669/1194522754/
+...
+001 (351.000.000) 11/08 06:54:48 Job executing on host: gt2 grid3.aset.psu.edu:2119/jobmanager-pbs
+...
+005 (351.000.000) 11/08 10:23:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (351.000.000) 11/08 10:23:13 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: job_1
+...

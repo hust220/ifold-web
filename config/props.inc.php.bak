@@ -1,0 +1,51 @@
+<?php
+
+$config['admin_email'] = 'ifold@listserv.unc.edu';
+
+$foldtype['1'] = 'fold';
+$foldtype['2'] = 'thermoscan';
+$foldtype['3'] = 'anneal';
+$foldtype['4'] = 'pfold';
+
+$taskparams[] = 'foldtype';
+$taskparams[] = 'pdbCode';
+$taskparams[] = 'pdbFileName';
+$taskparams[] = 'pdbDecoyFileName';
+$taskparams[] = 'simTime';
+$taskparams[] = 'numIterations';
+$taskparams[] = 'initialTemp';
+$taskparams[] = 'finalTemp';
+$taskparams[] = 'heatExchCo';
+$taskparams[] = 'transTemp';
+$taskparams[] = 'temp1';
+$taskparams[] = 'temp2';
+$taskparams[] = 'temp3';
+$taskparams[] = 'temp4';
+$taskparams[] = 'temp5';
+$taskparams[] = 'temp6';
+
+$taskoutputs[] = 'task_id';
+$taskoutputs[] = 'trajectoryModelType';
+$taskoutputs[] = 'trajectoryMin';
+$taskoutputs[] = 'trajectoryMax';
+$taskoutputs[] = 'trajectoryInterval';
+$taskoutputs[] = 'contactFrequencyMap';
+$taskoutputs[] = 'cvVsTemp';
+$taskoutputs[] = 'equilibriumOffset';
+$taskoutputs[] = 'energyVsTemp';
+$taskoutputs[] = 'energyVsTime';
+$taskoutputs[] = 'radiusVsTime';
+
+$foldstatus['1'] = 'Queued';
+$foldstatus['2'] = 'Pending';
+$foldstatus['3'] = 'Running';
+$foldstatus['4'] = 'Processing';
+$foldstatus['5'] = 'Complete';
+$foldstatus['6'] = 'Paused';
+$foldstatus['7'] = 'Terminated';
+$foldstatus['8'] = 'Unknown';
+
+$GLOBALS['config'] = $config;
+$GLOBALS['taskparams'] = $taskparams;
+$GLOBALS['taskoutputs'] = $taskoutputs;
+$GLOBALS['foldstatus'] = $foldstatus;

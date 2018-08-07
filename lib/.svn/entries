@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="108"
+   name=""
+   committed-date="2006-05-02T02:34:33.170000Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   name="smarty"
+   kind="dir"/>
+<entry
+   committed-rev="99"
+   name="TaskDAO.class.php"
+   text-time="2006-04-29T23:26:40.000000Z"
+   committed-date="2006-04-29T21:39:21.836125Z"
+   checksum="be41a18821e578261fd90a872a09f336"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:40.000000Z"/>
+<entry
+   committed-rev="57"
+   name="TaskOutputsDAO.php"
+   text-time="2006-04-06T23:27:40.000000Z"
+   committed-date="2006-03-28T21:58:38.989625Z"
+   checksum="02575f1cc2c09c530936c41c44377d5f"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="99"
+   name="TaskParamsDAO.php"
+   text-time="2006-04-29T23:26:40.000000Z"
+   committed-date="2006-04-29T21:39:21.836125Z"
+   checksum="1ad02c6b47ab8efd136e8500b1fdac5b"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:40.000000Z"/>
+<entry
+   committed-rev="76"
+   name="DaemonDAO.class.php"
+   text-time="2006-04-12T05:04:31.000000Z"
+   committed-date="2006-04-12T04:10:46.541875Z"
+   checksum="632633c89f060e055dc01a028a220b14"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-12T05:04:31.000000Z"/>
+<entry
+   committed-rev="94"
+   name="HelpDAO.class.php"
+   text-time="2006-04-29T23:26:40.000000Z"
+   committed-date="2006-04-22T20:00:03.439375Z"
+   checksum="aaad49bad5cc9a0fa8ecec8baff0692f"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-29T23:26:40.000000Z"/>
+<entry
+   name="except"
+   kind="dir"/>
+<entry
+   name="adodb"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="SmartySetup.class.php"
+   text-time="2006-04-06T23:27:40.000000Z"
+   committed-date="2006-04-06T10:29:31.807500Z"
+   checksum="088e8bc3477b6d280a36c57e47ae652a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:40.000000Z"/>
+<entry
+   committed-rev="108"
+   name="IFoldProps.class.php"
+   text-time="2006-05-02T02:30:37.000000Z"
+   committed-date="2006-05-02T02:34:33.170000Z"
+   checksum="1f35a28c222c3643c17ec3490afcf71c"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-02T02:30:37.000000Z"/>
+<entry
+   committed-rev="49"
+   name="UserDAO.class.php"
+   text-time="2006-04-06T23:27:40.000000Z"
+   committed-date="2006-03-13T04:34:44.951750Z"
+   checksum="ef4d692d7cae283ed5396e7c4b9a7f67"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:40.000000Z"/>
+<entry
+   committed-rev="99"
+   name="DAO.class.php"
+   text-time="2006-04-29T23:26:40.000000Z"
+   committed-date="2006-04-29T21:39:21.836125Z"
+   checksum="1678899c805fed9258dac94aadc5cbb5"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-29T23:26:40.000000Z"/>
+<entry
+   committed-rev="108"
+   name="IFoldDB.class.php"
+   text-time="2006-05-02T02:30:37.000000Z"
+   committed-date="2006-05-02T02:34:33.170000Z"
+   checksum="7b3776ed46c8d3bd35533cca9c7ab5ec"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-02T02:30:37.000000Z"/>
+<entry
+   committed-rev="78"
+   name="OutputDAO.class.php"
+   text-time="2006-04-12T05:07:35.000000Z"
+   committed-date="2006-04-12T05:13:58.166875Z"
+   checksum="4df2412c1ba9030053420ec33dca0abb"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-12T05:07:35.000000Z"/>
+</wc-entries>

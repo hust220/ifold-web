@@ -1,0 +1,29 @@
+000 (083.000.000) 09/13 09:52:09 Job submitted from host: <152.19.36.1:51205>
+    DAG Node: job_1
+...
+017 (083.000.000) 09/13 09:52:45 Job submitted to Globus
+    RM-Contact: nest.phys.uwm.edu:2119/jobmanager-condor
+    JM-Contact: https://nest.phys.uwm.edu:35830/23244/1189691594/
+    Can-Restart-JM: 1
+...
+027 (083.000.000) 09/13 09:52:45 Job submitted to grid resource
+    GridResource: gt2 nest.phys.uwm.edu:2119/jobmanager-condor
+    GridJobId: gt2 nest.phys.uwm.edu:2119/jobmanager-condor https://nest.phys.uwm.edu:35830/23244/1189691594/
+...
+001 (083.000.000) 09/13 09:54:16 Job executing on host: gt2 nest.phys.uwm.edu:2119/jobmanager-condor
+...
+005 (083.000.000) 09/13 09:56:01 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+016 (083.000.000) 09/13 09:56:04 POST Script terminated.
+	(1) Normal termination (return value 0)
+    DAG Node: job_1
+...

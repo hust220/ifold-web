@@ -1,0 +1,14 @@
+# Rescue DAG file, created after running
+#   the job.dagman DAG file
+#
+# Total number of Nodes: 1
+# Nodes premarked DONE: 0
+# Nodes that failed: 1
+#   job_1,<ENDLIST>
+
+JOB job_1 job.condor 
+SCRIPT POST job_1 /var/www/localhost/htdocs/ifold/iFoldDaemon3/postscript.sh /var/www/localhost/htdocs/ifold/iFoldDaemon3
+RETRY job_1 5
+
+
+

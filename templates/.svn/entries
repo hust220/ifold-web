@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="130"
+   name=""
+   committed-date="2006-05-10T21:53:14.286250Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/templates"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="123"
+   name="introduction.tpl"
+   text-time="2006-05-05T06:24:23.000000Z"
+   committed-date="2006-05-04T03:24:13.466875Z"
+   checksum="e07da9a180d1a52ecba75e3c8c3f70e5"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-05-05T06:24:23.000000Z"/>
+<entry
+   committed-rev="109"
+   name="adminUserList.tpl"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="64ec895cc2aff70f89146e6cd66506db"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="109"
+   name="helpView.tpl"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="ffed62100270c7781ffa75a848ab6e6d"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="109"
+   name="help.tpl"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="06fb0d78b73822d5614fa2a072e98085"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="109"
+   name="loggedIn.tpl"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="eda504ae28edfa9205e792ed2cc36bb4"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="94"
+   name="welcome.tpl"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-22T20:00:03.439375Z"
+   checksum="bac274ec8b4d45c1ef7e128ab47db2af"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="109"
+   name="activity.tpl"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="a3e68a0d9a9f7ae292c7906981af4699"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="122"
+   name="helpEdit.tpl"
+   text-time="2006-05-05T06:24:23.000000Z"
+   committed-date="2006-05-04T03:06:36.654375Z"
+   checksum="b756e72c32ad191c67608d62d82c4c7e"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-05-05T06:24:23.000000Z"/>
+<entry
+   committed-rev="109"
+   name="taskList.tpl"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="736d83d83a736572683cf386678301e6"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="57"
+   name="submit.bak.tpl"
+   text-time="2006-04-06T23:27:36.000000Z"
+   committed-date="2006-03-28T21:58:38.989625Z"
+   checksum="4290742221c2da92214d41e23a4fa812"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:36.000000Z"/>
+<entry
+   committed-rev="109"
+   name="profile.tpl"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="7586e440ab332933b0b0df4acfb0658f"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="98"
+   name="registerConfirm.tpl"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-24T20:20:14.383000Z"
+   checksum="216dbb0117938cf65f92bb987e49f7ca"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="130"
+   name="submit.tpl"
+   text-time="2006-05-10T21:47:06.000000Z"
+   committed-date="2006-05-10T21:53:14.286250Z"
+   checksum="92d7a62ce50848a2b30f869a62c282d4"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-10T21:47:06.000000Z"/>
+<entry
+   committed-rev="92"
+   name="lostPassword.tpl"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-19T03:42:00.189375Z"
+   checksum="2c4460fca0daea3b679c713eea542a45"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+<entry
+   committed-rev="122"
+   name="profileEdit.tpl"
+   text-time="2006-05-05T06:24:23.000000Z"
+   committed-date="2006-05-04T03:06:36.654375Z"
+   checksum="544269d5b474b0daf555587374ae932a"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-05-05T06:24:23.000000Z"/>
+<entry
+   committed-rev="109"
+   name="adminIFold.tpl"
+   text-time="2006-05-03T04:28:16.000000Z"
+   committed-date="2006-05-02T05:15:44.670000Z"
+   checksum="78316bfed7fa18471d48328b3e7bf20d"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-05-03T04:28:16.000000Z"/>
+<entry
+   committed-rev="97"
+   name="index.tpl"
+   text-time="2006-04-29T23:26:39.000000Z"
+   committed-date="2006-04-23T23:52:43.078125Z"
+   checksum="45ded1c7e57231629ba97f8259ad413f"
+   last-author="lopp"
+   kind="file"
+   prop-time="2006-04-29T23:26:39.000000Z"/>
+</wc-entries>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9"
+   name=""
+   committed-date="2006-02-14T23:37:33.687500Z"
+   url="svn://mephitix.no-ip.org/ifold/trunk/lib/adodb/docs"
+   last-author="adi"
+   kind="dir"
+   uuid="c14393ae-7842-394b-ad27-b78dd16de78e"
+   revision="132"/>
+<entry
+   committed-rev="9"
+   name="docs-session.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="105592d9223fc4b7fdb63b94bbbea40a"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="docs-oracle.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="fc246a6bc5420e52981a6cdbc62cecbe"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="readme.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="9a0e51379d70a597d2be5cf38ee0dbed"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="docs-adodb.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="40140f5b42f15b4e68966006d5745544"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="tute.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="691e557cea6f1f8d7d07329459120954"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="docs-perf.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="916e1c8e4fc84662e70217fc795795b0"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="docs-datadict.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="8013a75af758b4a43c3d40bf3c736af5"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="old-changelog.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="3158a33f9d5eda38a369b5749198dd02"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+<entry
+   committed-rev="9"
+   name="tips_portable_sql.htm"
+   text-time="2006-04-06T23:27:37.000000Z"
+   committed-date="2006-02-14T23:37:33.687500Z"
+   checksum="40273e36d6d0b2c5e09a55698cd45ef7"
+   last-author="adi"
+   kind="file"
+   prop-time="2006-04-06T23:27:37.000000Z"/>
+</wc-entries>

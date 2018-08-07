@@ -1,0 +1,181 @@
+what is file name ?
+dx,dy,dz=?
+A.SYSTEM SIZE
+207.000000
+207.000000
+207.000000
+B.NUMBER OF ATOMS
+NUM_ATOMS=128
+C.TYPES OF ATOMS
+1 1 1.000000 1.878200 3.750000
+2 2 1.000000 1.878200 3.750000
+3 3 1.000000 1.878200 3.750000
+4 4 1.000000 1.878200 3.750000
+5 5 1.000000 1.878200 3.750000
+6 6 1.000000 1.878200 3.750000
+7 7 1.000000 1.878200 3.750000
+8 8 1.000000 1.878200 3.750000
+9 9 1.000000 1.878200 3.750000
+10 10 1.000000 1.878200 3.750000
+11 11 1.000000 1.878200 3.750000
+12 12 1.000000 1.878200 3.750000
+13 13 1.000000 1.878200 3.750000
+14 14 1.000000 1.878200 3.750000
+15 15 1.000000 1.878200 3.750000
+16 16 1.000000 1.878200 3.750000
+17 17 1.000000 1.878200 3.750000
+18 18 1.000000 1.878200 3.750000
+19 19 1.000000 1.878200 3.750000
+20 20 1.000000 1.878200 3.750000
+21 21 1.000000 1.878200 3.750000
+22 22 1.000000 1.878200 3.750000
+23 23 1.000000 1.878200 3.750000
+24 24 1.000000 1.878200 3.750000
+25 25 1.000000 1.878200 3.750000
+26 26 1.000000 1.878200 3.750000
+27 27 1.000000 1.878200 3.750000
+28 28 1.000000 1.878200 3.750000
+29 29 1.000000 1.878200 3.750000
+30 30 1.000000 1.878200 3.750000
+31 31 1.000000 1.878200 3.750000
+32 32 1.000000 1.878200 3.750000
+33 33 1.000000 1.878200 3.750000
+34 34 1.000000 1.878200 3.750000
+35 35 1.000000 1.878200 3.750000
+36 36 1.000000 1.878200 3.750000
+37 37 1.000000 1.878200 3.750000
+38 38 1.000000 1.878200 3.750000
+39 39 1.000000 1.878200 3.750000
+40 40 1.000000 1.878200 3.750000
+41 41 1.000000 1.878200 3.750000
+42 42 1.000000 1.878200 3.750000
+43 43 1.000000 1.878200 3.750000
+44 44 1.000000 1.878200 3.750000
+45 45 1.000000 1.878200 3.750000
+46 46 1.000000 1.878200 3.750000
+47 47 1.000000 1.878200 3.750000
+48 48 1.000000 1.878200 3.750000
+49 49 1.000000 1.878200 3.750000
+50 50 1.000000 1.878200 3.750000
+51 51 1.000000 1.878200 3.750000
+52 52 1.000000 1.878200 3.750000
+53 53 1.000000 1.878200 3.750000
+54 54 1.000000 1.878200 3.750000
+55 55 1.000000 1.878200 3.750000
+56 56 1.000000 1.878200 3.750000
+57 57 1.000000 1.878200 3.750000
+58 58 1.000000 1.878200 3.750000
+59 59 1.000000 1.878200 3.750000
+60 60 1.000000 1.878200 3.750000
+61 61 1.000000 1.878200 3.750000
+62 62 1.000000 1.878200 3.750000
+63 63 1.000000 1.878200 3.750000
+64 64 1.000000 1.878200 3.750000
+65 65 1.000000 1.878200 3.750000
+66 66 1.000000 1.878200 3.750000
+67 67 1.000000 1.878200 3.750000
+68 68 1.000000 1.878200 3.750000
+69 69 1.000000 1.878200 3.750000
+70 70 1.000000 1.878200 3.750000
+71 71 1.000000 1.878200 3.750000
+72 72 1.000000 1.000000 3.750000
+D.NON-ELASTIC COLLISIONS
+E.ELASTIC COLLISIONS
+F.LINKED PAIRS
+H.LIST OF ATOMS
+0 207.000000 50 4.140000
+1 207.000000 50 4.140000
+2 207.000000 50 4.140000
+I.LIST OF BONDS
+number of bonds= 300
+-1210351608 -1210243512 66560 -1210238712
+53.166482 -370.829887 -44.689842
+We do not compute rms
+Is This OK ? (y/n) 
+What is rms file name?
+time between measurements= 1000.000000
+Is This OK ? (y/n) 
+time between measurements= ?
+We do not use native file
+Is This OK ? (y/n) 
+native file name?
+Compute gyration radius
+Is This OK ? (y/n) 
+Minimal Molecular Mass= 0.000000
+Is This OK ? (y/n) 
+Minimal Molecular Mass= 0.000000
+Compute correlation function
+Is This OK ? (y/n) 
+We do not calculate phi-psi values
+Is This OK ? (y/n) 
+I am not saving text
+I am not saving data
+I am not saving movie
+Simulation time=0.000000 
+Instant Temperature=1.822131 
+Instant Potential energy=139.000000 
+Largest molecule radius=10.219959 
+Termal coefficient=0.000000 
+Is This OK ? (y/n) 
+I am not saving text
+Is This OK ? (y/n) 
+open text file? y/n
+what is text file name ?
+Text update rate=1000.000000 
+Is This OK ? (y/n) 
+What is new rate ?
+I am not saving data
+Is This OK ? (y/n) 
+open echo file? y/n
+what is echo file name ?
+File update rate=1000.000000 
+Is This OK ? (y/n) 
+What is new rate ?
+I am not saving movie
+Is This OK ? (y/n) 
+Movie update rate=1000.000000 
+Is This OK ? (y/n) 
+What is new rate ?
+open movie file? y/n
+what is movie file name ?
+number of atoms in the movie 128
+start to write from 1
+number of parameters4
+Is This OK ? (y/n) 
+start to write from 1
+number of atoms=128
+Is This OK ? (y/n) 
+change write parameters for text files?
+Is This OK ? (y/n) 
+version 1
+Simulation time=0.000000 
+Is This OK ? (y/n) 
+Temperature=1.822131 
+Is This OK ? (y/n) 
+What is new temperature ?
+Termal coefficient=0.000000 
+Is This OK ? (y/n) 
+What is new coeff. ?
+Limiting Temperature=0.000000 
+Is This OK ? (y/n) 
+What is Lim. Temp. ?
+delta_ll=128 
+Is This OK ? (y/n) 
+I am saving text to the file
+T01.000_XC1.000_T11.000_MAXt100.txt
+Text update rate=10000.000000 
+I am saving data to the file
+T01.000_XC1.000_T11.000_MAXt100.echo
+File update rate=10.000000 
+I am saving movie to the file
+T01.000_XC1.000_T11.000_MAXt100.mov
+Movie update rate=10.000000 
+Simulation time=0.000000 
+Instant Temperature=1.000000 
+Instant Potential energy=139.000000 
+Largest molecule radius=10.219959 
+Termal coefficient=1.000000 
+Temperature limit=1.000000 
+Is This OK ? (y/n) 
+What is maxtime?
+maxtime = 100.000000
